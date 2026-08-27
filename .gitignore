@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+venv/
+.venv/
+*.egg
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.temp
+
+# Logs
+*.log
+discover.log
+download.log
+download_*.log
+sync_and_download.log
+
+# Build intermediates
+failure_report.json
+repo_cache.json
+security-report.json
+reputation-report.json
+registry.json.bak
+registry.json.tmp
+
+# Duplicate category indexes (frontend uses docs/categories/ only)
+/categories/
+
+# Temp working directory
+/.tmp/
+
+# Cache directories
+/cache/
+/.cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Test artifacts
+.pytest_cache/
+.mypy_cache/
+
+# The publish artifact mirrors the data repository under skills/**.
+# Skill names can legitimately collide with generic ignored directories
+# such as build/ or dist/, so never ignore mirrored skill files.
+!/skills/
+!/skills/**

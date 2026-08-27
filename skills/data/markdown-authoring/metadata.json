@@ -1,0 +1,13 @@
+{
+  "name": "markdown-authoring",
+  "description": "Markdown style patterns to use when writing documents.",
+  "repo": "madskilling/madskills",
+  "category": "data",
+  "tags": [
+    "markdown",
+    "authoring"
+  ],
+  "stars": 0,
+  "source": "local",
+  "dir_name": "markdown-authoring"
+}

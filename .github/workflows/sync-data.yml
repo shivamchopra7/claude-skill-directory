@@ -1,0 +1,19 @@
+name: "Deprecated: Sync Skills Archive (Use Core)"
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deprecated:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Explain deprecation
+        run: |
+          echo "This workflow is intentionally disabled in main."
+          echo "Run sync from registry-core and let core dispatch publish to main."
+          echo "Index generation and Pages refresh also run from registry-core."
+          echo "Main only receives the merged publish artifact via publish-from-core."
+          exit 1

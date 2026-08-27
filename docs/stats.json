@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-27T09:20:19.260541Z",
+  "archive_skill_md_count_raw": 203586,
+  "archive_metadata_count_raw": 203584,
+  "indexed_skill_count_scan_shape": 162431,
+  "registry_skill_count_dedup": 161998,
+  "total_plugins": 4,
+  "categories": 40,
+  "category_counts": [
+    {
+      "name": "agent",
+      "code": "agent",
+      "count": 1185
+    },
+    {
+      "name": "ai-llm",
+      "code": "ai-llm",
+      "count": 1762
+    },
+    {
+      "name": "ai-ml",
+      "code": "ai-ml",
+      "count": 1658
+    },
+    {
+      "name": "analysis",
+      "code": "analysis",
+      "count": 3176
+    },
+    {
+      "name": "api",
+      "code": "api",
+      "count": 840
+    },
+    {
+      "name": "bash",
+      "code": "bash",
+      "count": 575
+    },
+    {
+      "name": "business",
+      "code": "business",
+      "count": 805
+    },
+    {
+      "name": "c-level",
+      "code": "c-level",
+      "count": 49
+    },
+    {
+      "name": "communication",
+      "code": "communication",
+      "count": 491
+    },
+    {
+      "name": "context-management",
+      "code": "context-management",
+      "count": 1059
+    },
+    {
+      "name": "creative",
+      "code": "creative",
+      "count": 603
+    },
+    {
+      "name": "data",
+      "code": "dat",
+      "count": 30873
+    },
+    {
+      "name": "design",
+      "code": "des",
+      "count": 10446
+    },
+    {
+      "name": "development",
+      "code": "dev",
+      "count": 37064
+    },
+    {
+      "name": "devops",
+      "code": "ops",
+      "count": 8449
+    },
+    {
+      "name": "documents",
+      "code": "doc",
+      "count": 6254
+    },
+    {
+      "name": "domains",
+      "code": "domains",
+      "count": 3141
+    },
+    {
+      "name": "examples",
+      "code": "examples",
+      "count": 169
+    },
+    {
+      "name": "forensics",
+      "code": "forensics",
+      "count": 135
+    },
+    {
+      "name": "gaming",
+      "code": "gaming",
+      "count": 887
+    },
+    {
+      "name": "generation",
+      "code": "generation",
+      "count": 1449
+    },
+    {
+      "name": "integration",
+      "code": "integration",
+      "count": 6451
+    },
+    {
+      "name": "language",
+      "code": "language",
+      "count": 173
+    },
+    {
+      "name": "local-ai-infrastructure",
+      "code": "local-ai-infrastructure",
+      "count": 104
+    },
+    {
+      "name": "marketing",
+      "code": "mkt",
+      "count": 3489
+    },
+    {
+      "name": "orchestration",
+      "code": "orchestration",
+      "count": 2601
+    },
+    {
+      "name": "other",
+      "code": "oth",
+      "count": 3206
+    },
+    {
+      "name": "performance",
+      "code": "performance",
+      "count": 1086
+    },
+    {
+      "name": "personal-development",
+      "code": "personal-development",
+      "count": 719
+    },
+    {
+      "name": "planning",
+      "code": "planning",
+      "count": 1691
+    },
+    {
+      "name": "platform",
+      "code": "platform",
+      "count": 924
+    },
+    {
+      "name": "product",
+      "code": "prd",
+      "count": 3100
+    },
+    {
+      "name": "productivity",
+      "code": "pro",
+      "count": 2331
+    },
+    {
+      "name": "quality",
+      "code": "quality",
+      "count": 4288
+    },
+    {
+      "name": "security",
+      "code": "sec",
+      "count": 4660
+    },
+    {
+      "name": "skills",
+      "code": "skills",
+      "count": 2540
+    },
+    {
+      "name": "system",
+      "code": "system",
+      "count": 360
+    },
+    {
+      "name": "testing",
+      "code": "tst",
+      "count": 8908
+    },
+    {
+      "name": "workflow",
+      "code": "workflow",
+      "count": 3562
+    },
+    {
+      "name": "writing",
+      "code": "writing",
+      "count": 1168
+    }
+  ],
+  "unique_repo_count": 9870,
+  "official_skill_count": 0,
+  "top_repositories": [
+    {
+      "repo": "jeremylongshore/claude-code-plugins-plus-skills",
+      "count": 2237
+    },
+    {
+      "repo": "sickn33/antigravity-awesome-skills",
+      "count": 1629
+    },
+    {
+      "repo": "majiayu000/claude-skill-registry",
+      "count": 1595
+    },
+    {
+      "repo": "a5c-ai/babysitter",
+      "count": 1036
+    },
+    {
+      "repo": "Klotzkette/claude-fuer-deutsches-recht",
+      "count": 885
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
+      "count": 882
+    },
+    {
+      "repo": "aiskillstore/marketplace",
+      "count": 817
+    },
+    {
+      "repo": "plurigrid/asi",
+      "count": 703
+    },
+    {
+      "repo": "TheBushidoCollective/han",
+      "count": 676
+    },
+    {
+      "repo": "levnikolaevich/claude-code-skills",
+      "count": 675
+    }
+  ],
+  "featured_count": 100,
+  "asset_state_counts": {},
+  "asset_liveness_counts": {},
+  "index_size_bytes": 324,
+  "index_size_gzip_bytes": 244,
+  "search_shard_count": 5,
+  "search_largest_shard_bytes": 8388673,
+  "search_largest_shard_gzip_bytes": 1425409,
+  "category_shard_count": 45,
+  "category_largest_part_bytes": 8388729,
+  "category_largest_part_gzip_bytes": 1808049,
+  "lite_index_count": 162431,
+  "lite_index_included_count": 5000,
+  "lite_index_size_bytes": 3494087,
+  "lite_index_gzip_size_bytes": 673403,
+  "quality_index_size_bytes": 364,
+  "quality_index_gzip_size_bytes": 271,
+  "quality_shard_count": 6,
+  "quality_largest_shard_bytes": 8388718,
+  "quality_largest_shard_gzip_bytes": 1768376,
+  "security_index_size_bytes": 368,
+  "security_index_gzip_size_bytes": 272,
+  "security_shard_count": 20,
+  "security_largest_shard_bytes": 8388717,
+  "security_largest_shard_gzip_bytes": 1589050,
+  "ranking_index_size_bytes": 364,
+  "ranking_index_gzip_size_bytes": 270,
+  "ranking_shard_count": 5,
+  "ranking_largest_shard_bytes": 8388608,
+  "ranking_largest_shard_gzip_bytes": 2021109,
+  "largest_generated_file_bytes": 8388729,
+  "security_scan": {
+    "total": 203584,
+    "passed": 202060,
+    "failed": 1524
+  }
+}

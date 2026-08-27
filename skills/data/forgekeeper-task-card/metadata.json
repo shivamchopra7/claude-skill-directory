@@ -1,0 +1,14 @@
+{
+  "name": "forgekeeper-task-card",
+  "description": "Create Forgekeeper task cards following project conventions",
+  "repo": "gatewaybuddy/forgekeeper",
+  "category": "data",
+  "tags": [
+    "forgekeeper",
+    "task",
+    "card"
+  ],
+  "stars": 1,
+  "source": "local",
+  "dir_name": "forgekeeper-task-card"
+}
