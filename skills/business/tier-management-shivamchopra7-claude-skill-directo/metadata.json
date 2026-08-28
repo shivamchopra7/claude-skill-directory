@@ -1,0 +1,18 @@
+{
+  "name": "tier-management",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/tier-management/SKILL.md",
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-22T03:56:42.043875Z",
+  "dir_name": "tier-management-shivamchopra7-claude-skill-directo",
+  "category": "business",
+  "github_path": "skills/other/tier-management",
+  "github_branch": "main",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/other/tier-management/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

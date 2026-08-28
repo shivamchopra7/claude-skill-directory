@@ -1,79 +1,64 @@
-# Claude Skills Registry
+# Claude Skill Directory
 
-> **Core repo:** logic + index + site.  
-> **Main repo (merged artifact):** https://github.com/majiayu000/claude-skill-registry  
-> **Data repo (skills archive):** https://github.com/majiayu000/claude-skill-registry-data  
-> **Authority:** core workflows are canonical; main is a publish mirror.  
 <p align="center">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fmajiayu000.github.io%2Fclaude-skill-registry-core%2Fstats.json&query=%24.archive_skill_md_count_raw&label=SKILL.md%20files%20(raw)&color=blueviolet&style=flat-square" alt="SKILL.md files (raw)">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fmajiayu000.github.io%2Fclaude-skill-registry-core%2Fstats.json&query=%24.registry_skill_count_dedup&label=Skills%20(dedup)&color=purple&style=flat-square" alt="Skills (dedup)">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fmajiayu000.github.io%2Fclaude-skill-registry-core%2Fstats.json&query=%24.total_plugins&label=Plugins&color=1f6feb&style=flat-square" alt="Plugins">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fmajiayu000.github.io%2Fclaude-skill-registry-core%2Fstats.json&query=%24.updated_at&label=Updated%20UTC&color=2ea043&style=flat-square" alt="Updated UTC">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fshivamchopra7.github.io%2Fclaude-skill-directory%2Fstats.json&query=%24.archive_skill_md_count_raw&label=SKILL.md%20files%20(raw)&color=blueviolet&style=flat-square" alt="SKILL.md files (raw)">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fshivamchopra7.github.io%2Fclaude-skill-directory%2Fstats.json&query=%24.registry_skill_count_dedup&label=Skills%20(dedup)&color=purple&style=flat-square" alt="Skills (dedup)">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fshivamchopra7.github.io%2Fclaude-skill-directory%2Fstats.json&query=%24.total_plugins&label=Plugins&color=1f6feb&style=flat-square" alt="Plugins">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fshivamchopra7.github.io%2Fclaude-skill-directory%2Fstats.json&query=%24.updated_at&label=Updated%20UTC&color=2ea043&style=flat-square" alt="Updated UTC">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License">
-  <a href="https://majiayu000.github.io/claude-skill-registry-core/"><img src="https://img.shields.io/badge/Web-Search-blue?style=flat-square" alt="Web Search"></a>
+  <a href="https://shivamchopra7.github.io/claude-skill-directory/"><img src="https://img.shields.io/badge/Web-Search-blue?style=flat-square" alt="Web Search"></a>
 </p>
 
-> The most comprehensive Claude Code skills registry — updated daily with the latest skills
+> The most comprehensive directory of Claude Code skills — updated daily with the latest skills
 
 ## What is this?
 
-The largest searchable index of Claude Code skills, aggregated from GitHub and community sources.
+The largest searchable index of Claude Code skills, aggregated from GitHub and
+community sources. Discovery, download, deduplication, security scanning, index
+generation, and the published site all live in this one repository.
 
-**Three ways to use:**
-1. **[Web Search](https://majiayu000.github.io/claude-skill-registry-core/)** - Fast browser-based search
-2. **[sk CLI](https://github.com/majiayu000/caude-skill-manager)** - Terminal package manager
-3. **API** - Direct JSON access
+**Two ways to use:**
+1. **[Web Search](https://shivamchopra7.github.io/claude-skill-directory/)** - Fast browser-based search
+2. **API** - Direct JSON access over GitHub Pages or `raw.githubusercontent.com`
 
-**Repo layout note:** `core` owns workflows/pipeline logic, `data` stores `skills/**`, and `main` is generated from `core + data`. See `SCHEME2_SPLIT.md`.
-
-## Generated Mirror Notice
-
-This repository is the merged publish artifact for browsing and compatibility consumers. Source changes for discovery, download, security scanning, index generation, search, Pages, or publish orchestration belong in [`claude-skill-registry-core`](https://github.com/majiayu000/claude-skill-registry-core). Archived skill body and archive metadata issues belong in [`claude-skill-registry-data`](https://github.com/majiayu000/claude-skill-registry-data).
-
-- **Do not submit normal source PRs here** unless the change is explicitly main-owned, such as publish workflow routing or mirror-only repository metadata.
-- **Release status**: this mirror does not cut independent GitHub Releases for daily generated data. Use `provenance/merge-source.json`, `registry_summary.json`, and the generated timestamps to identify the exact `core_sha` and `data_sha` behind an artifact.
-- **Use issues here only for mirror artifact problems**, such as mismatched generated files, broken compatibility paths, or incorrect provenance after publish.
+Maintained by Shivam Chopra.
 
 ## Highlights
 
-- **Massive Skill Index** - Deduplicated, high-quality registry (see badge for live count)
+- **Massive Skill Index** - Deduplicated, high-quality directory (see badge for live count)
 - **Rich Categories** - Development, Testing, DevOps, Design, and more
-- **Daily Updates** - Automated crawling/validation by core scheduled workflows
+- **Daily Updates** - Automated crawling and validation by scheduled workflows
 - **Quality Indexed** - Metadata, descriptions, and star counts
 - **Lightweight Search** - Gzip-compressed index for fast client-side search
 
-## Operational Ownership
+## Generated vs Hand-Owned
 
-- **Core**: source of truth for workflows, crawling, scanning, and index/site generation
-- **Data**: canonical archived skill tree (`skills/**`)
-- **Main**: publish artifact for merged browsing/compatibility consumers
-- **Publish contract**: core dispatches main publish with pinned `core_sha` + `data_sha`
-- **Non-goal for main**: main does not initiate canonical syncs, archive updates, or index generation
+Most of this repository is build output. Do not hand-edit the generated paths —
+they are overwritten on the next pipeline run:
+
+- `skills/**`
+- `registry.json`, `registry_summary.json`, `registry-manifest.json`, `registry-shards/**`
+- `docs/search-index*`, `docs/search-shards/**`
+- `docs/quality-index*`, `docs/quality-shards/**`
+- `docs/security-index*`, `docs/security-shards/**`
+- `docs/ranking-index*`, `docs/ranking-shards/**`
+- `docs/categories/**`, `docs/stats.json`, `docs/featured.json`, `docs/plugins.json`
+- `THIRD_PARTY_NOTICES.md`
+
+Everything else — `scripts/`, `crawler/`, `sources/`, `schema/`, `taxonomy/`,
+`docs/index.html`, `docs/css/`, `docs/js/`, `.github/workflows/`, and the root
+documentation — is hand-owned and is where real changes belong. See
+[CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Quick Start
 
 ### Option 1: Web Search
 
-Visit [https://majiayu000.github.io/claude-skill-registry-core/](https://majiayu000.github.io/claude-skill-registry-core/)
+Visit [https://shivamchopra7.github.io/claude-skill-directory/](https://shivamchopra7.github.io/claude-skill-directory/)
 
 For clone/update tips on large repositories, see [docs/FAST_CLONE.md](docs/FAST_CLONE.md).
 
-### Option 2: CLI (sk)
-
-```bash
-# Install sk
-go install github.com/majiayu000/caude-skill-manager@latest
-
-# Search skills
-sk search testing
-sk search pdf
-sk search --popular
-
-# Install a skill
-sk install anthropics/skills/skills/docx
-```
-
-### Option 3: Direct API
+### Option 2: Direct API
 
 The public JSON surface is versioned in
 [docs/artifact-api-contract.md](docs/artifact-api-contract.md). Use that
@@ -82,39 +67,39 @@ and deprecation markers.
 
 ```bash
 # Startup search index and bounded full-search shards
-curl https://majiayu000.github.io/claude-skill-registry-core/search-index.json
-curl https://majiayu000.github.io/claude-skill-registry-core/search-index-manifest.json
-curl https://majiayu000.github.io/claude-skill-registry-core/search-shards/part-000.json
+curl https://shivamchopra7.github.io/claude-skill-directory/search-index.json
+curl https://shivamchopra7.github.io/claude-skill-directory/search-index-manifest.json
+curl https://shivamchopra7.github.io/claude-skill-directory/search-shards/part-000.json
 
 # Deduplicated catalog index with quality/security/install signals
-curl https://majiayu000.github.io/claude-skill-registry-core/search-index-lite.json
-curl https://majiayu000.github.io/claude-skill-registry-core/quality-index.json
-curl https://majiayu000.github.io/claude-skill-registry-core/quality-index-manifest.json
-curl https://majiayu000.github.io/claude-skill-registry-core/quality-shards/part-000.json
-curl https://majiayu000.github.io/claude-skill-registry-core/security-index.json
-curl https://majiayu000.github.io/claude-skill-registry-core/security-index-manifest.json
-curl https://majiayu000.github.io/claude-skill-registry-core/security-shards/part-000.json
-curl https://majiayu000.github.io/claude-skill-registry-core/ranking-index.json
-curl https://majiayu000.github.io/claude-skill-registry-core/ranking-index-manifest.json
-curl https://majiayu000.github.io/claude-skill-registry-core/ranking-shards/part-000.json
+curl https://shivamchopra7.github.io/claude-skill-directory/search-index-lite.json
+curl https://shivamchopra7.github.io/claude-skill-directory/quality-index.json
+curl https://shivamchopra7.github.io/claude-skill-directory/quality-index-manifest.json
+curl https://shivamchopra7.github.io/claude-skill-directory/quality-shards/part-000.json
+curl https://shivamchopra7.github.io/claude-skill-directory/security-index.json
+curl https://shivamchopra7.github.io/claude-skill-directory/security-index-manifest.json
+curl https://shivamchopra7.github.io/claude-skill-directory/security-shards/part-000.json
+curl https://shivamchopra7.github.io/claude-skill-directory/ranking-index.json
+curl https://shivamchopra7.github.io/claude-skill-directory/ranking-index-manifest.json
+curl https://shivamchopra7.github.io/claude-skill-directory/ranking-shards/part-000.json
 
 # Lightweight registry summary (counts only)
-curl https://raw.githubusercontent.com/majiayu000/claude-skill-registry-core/main/registry_summary.json
+curl https://raw.githubusercontent.com/shivamchopra7/claude-skill-directory/main/registry_summary.json
 
-# Full registry manifest and shards (merged publish artifact)
-curl https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/registry-manifest.json
-curl https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/registry-shards/00.json
+# Full registry manifest and shards
+curl https://raw.githubusercontent.com/shivamchopra7/claude-skill-directory/main/registry-manifest.json
+curl https://raw.githubusercontent.com/shivamchopra7/claude-skill-directory/main/registry-shards/00.json
 
-# Compatibility registry pointer (merged publish artifact)
-curl https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/registry.json
+# Compatibility registry pointer
+curl https://raw.githubusercontent.com/shivamchopra7/claude-skill-directory/main/registry.json
 
 # Category manifest and bounded parts
-curl https://majiayu000.github.io/claude-skill-registry-core/categories/index.json
-curl https://majiayu000.github.io/claude-skill-registry-core/categories/development/manifest.json
-curl https://majiayu000.github.io/claude-skill-registry-core/categories/development/part-000.json
+curl https://shivamchopra7.github.io/claude-skill-directory/categories/index.json
+curl https://shivamchopra7.github.io/claude-skill-directory/categories/development/manifest.json
+curl https://shivamchopra7.github.io/claude-skill-directory/categories/development/part-000.json
 
 # Legacy category pointer
-curl https://majiayu000.github.io/claude-skill-registry-core/categories/development.json
+curl https://shivamchopra7.github.io/claude-skill-directory/categories/development.json
 ```
 
 ---
@@ -141,8 +126,8 @@ curl https://majiayu000.github.io/claude-skill-registry-core/categories/developm
 ┌─────────────────────────────────────────────────────────────────┐
 │  Layer 3: Consumption                                           │
 │  ┌────────────────┐  ┌────────────────┐  ┌────────────────┐    │
-│  │ Web UI         │  │ sk CLI         │  │ API            │    │
-│  │ (GitHub Pages) │  │ (Go)           │  │ (JSON)         │    │
+│  │ Web UI         │  │ JSON Shards    │  │ API            │    │
+│  │ (GitHub Pages) │  │ (bounded)      │  │ (JSON)         │    │
 │  └────────────────┘  └────────────────┘  └────────────────┘    │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -169,11 +154,14 @@ interface SkillMini {
 
 ---
 
-## Directory Structure (Core)
+## Repository Layout
 
 ```
-claude-skill-registry-core/
-├── registry.json           # Lightweight core registry metadata
+claude-skill-directory/
+├── registry.json           # Compatibility registry pointer
+├── registry-manifest.json  # Full registry manifest
+├── registry-shards/        # Bounded registry parts
+├── skills/                 # Archived skill tree (<category>/<skill>/SKILL.md)
 ├── docs/                   # GitHub Pages
 │   ├── index.html          # Web search UI
 │   ├── search-index-lite.json
@@ -186,16 +174,15 @@ claude-skill-registry-core/
 │   ├── anthropic.json
 │   ├── community.json
 │   └── skillsmp.json
-├── scripts/                # Build scripts
-│   ├── build_search_index.py
-│   ├── discover_by_topic.py
-│   ├── security_scanner.py
-│   └── ...
-└── (no committed skills/)  # skills/** lives in registry-data; mounted in CI when needed
+├── taxonomy/               # Canonical category definitions
+├── schema/                 # JSON Schema for SKILL.md frontmatter
+├── crawler/                # Discovery/download library code
+└── scripts/                # Build scripts
+    ├── build_search_index.py
+    ├── discover_by_topic.py
+    ├── security_scanner.py
+    └── ...
 ```
-
-The merged `claude-skill-registry` publish artifact additionally contains
-`registry-manifest.json` and `registry-shards/**`.
 
 ---
 
@@ -205,9 +192,6 @@ Canonical category slugs, short codes, governance status, and heuristic keywords
 live in `taxonomy/categories.yaml`. Pipeline scripts read that file instead of
 keeping their own category lists. Legacy category names are diagnostic inputs
 only; they are routed to review and are not accepted as publish categories.
-The canonical category proposal is documented in
-`docs/plan/canonical-taxonomy-proposal.md`, and the current target count report
-is `docs/plan/canonical-category-target-counts.json`.
 Validate the taxonomy itself with `python scripts/check_taxonomy_governance.py`.
 To validate publish output against canonical categories, pass repeated
 `--publish-category <slug>` values. To review category quality across the
@@ -264,17 +248,16 @@ Common category codes include:
 
 ### Current Status
 
-- [x] **Index count** tracked by the badge (core `registry.json`)
+- [x] **Index count** tracked by the badge (`registry.json`)
 - [x] **Archive size:** tracked by badge (raw `SKILL.md` count from `stats.json`)
 - [x] **Daily auto-update** via GitHub Actions
 - [x] **Security scanning** for all skills
-- [x] **sk CLI** for installation
 
 ### In Progress
 
 - [x] **Lightweight search index** (gzip-compressed; see stats.json)
 - [x] **Web search UI** (GitHub Pages)
-- [x] **GitHub Pages deployment** (https://majiayu000.github.io/claude-skill-registry-core/)
+- [x] **GitHub Pages deployment** (https://shivamchopra7.github.io/claude-skill-directory/)
 
 ### Planned
 
@@ -291,12 +274,12 @@ Common category codes include:
 ### Add Your Skill
 
 **Option 1: Submit via Issue**
-1. Open an [issue](https://github.com/majiayu000/claude-skill-registry-core/issues/new)
+1. Open an [issue](https://github.com/shivamchopra7/claude-skill-directory/issues/new)
 2. Use the "Add Skill" template
 3. Provide: repo URL, name, description, category
 
 **Option 2: Submit via PR**
-1. Fork `majiayu000/claude-skill-registry-core`
+1. Fork `shivamchopra7/claude-skill-directory`
 2. Add your skill to `sources/community.json`:
 
 ```json
@@ -310,24 +293,24 @@ Common category codes include:
 }
 ```
 
-3. Submit a PR to `majiayu000/claude-skill-registry-core` (not `claude-skill-registry`, which is a generated publish artifact)
+3. Open the PR against `shivamchopra7/claude-skill-directory`
 
 ### Report Issues
 
-We welcome feedback! Please open an issue for:
+Feedback is welcome. Please open an issue for:
 - **Bugs** - Search not working, incorrect data
 - **Feature requests** - New categories, better search
-- **UX improvements** - Web UI, CLI enhancements
+- **UX improvements** - Web UI enhancements
 - **Data quality** - Duplicate skills, wrong categories
 
-👉 [Open an Issue](https://github.com/majiayu000/claude-skill-registry-core/issues/new)
+👉 [Open an Issue](https://github.com/shivamchopra7/claude-skill-directory/issues/new)
 
 ### Contribute Code
 
 ```bash
-# Clone the core repo (authoritative pipeline repo)
-git clone --filter=blob:none --sparse https://github.com/majiayu000/claude-skill-registry-core.git
-cd claude-skill-registry-core
+# Clone without the heavy archive blobs
+git clone --filter=blob:none --sparse https://github.com/shivamchopra7/claude-skill-directory.git
+cd claude-skill-directory
 
 # Pull only what you need (add more paths later as needed)
 git sparse-checkout set --cone docs scripts sources schema
@@ -349,30 +332,14 @@ See `docs/FAST_CLONE.md` for more options (existing clones, getting full checkou
 
 ---
 
-## The Agent Infra Stack
+## Other People's Projects
 
-This project is one layer of an open-source stack for running coding agents (Claude Code, Codex) as serious infrastructure. Every piece works standalone; together they close the loop:
-
-In this stack, the registry is the **Extend** layer — the front door where you discover skills. Scan third-party skills with `argus` before installing, and keep agents honest at runtime with `vibeguard`.
-
-| Layer | Project | What it does |
-|---|---|---|
-| Extend | [claude-skill-registry](https://github.com/majiayu000/claude-skill-registry) **◀ you are here** | Discover and search community Claude Code skills |
-| Extend | [spellbook](https://github.com/majiayu000/spellbook) | Cross-runtime skills for Claude Code, Codex, and multi-agent workflows |
-| Trust | [argus](https://github.com/majiayu000/argus) | Static install-time scanner for supply-chain attacks (npm / PyPI / crates.io) |
-| Trust | [vibeguard](https://github.com/majiayu000/vibeguard) | Rules, hooks, and guards against hallucinated or unverified agent changes |
-| Remember | [remem](https://github.com/majiayu000/remem) | Local-first persistent memory for Claude Code and Codex sessions |
-| Orchestrate | [harness](https://github.com/majiayu000/harness) | Rust agent orchestration platform — rules, skills, GC, observability |
-| Route | [litellm-rs](https://github.com/majiayu000/litellm-rs) | High-performance Rust AI gateway — 100+ LLM APIs via OpenAI format |
-| Keep | [keepline](https://github.com/majiayu000/keepline) | Session command center — monitor, recover, never lose agent work |
-
----
-
-## Related Projects
+These are separate projects maintained by other people. They are listed for
+convenience only; they are not part of this repository and are not maintained
+here.
 
 | Project | Description |
 |---------|-------------|
-| [caude-skill-manager](https://github.com/majiayu000/caude-skill-manager) | CLI tool for installing skills (`sk`) |
 | [anthropics/skills](https://github.com/anthropics/skills) | Official Anthropic skills |
 | [SkillsMP](https://skillsmp.com) | Web-based skill marketplace |
 | [awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) | Curated skill list |
@@ -381,7 +348,10 @@ In this stack, the registry is the **Extend** layer — the front door where you
 
 ## License
 
-MIT License applies to the registry code/pipeline only - see [LICENSE](LICENSE) for details.
+MIT License applies to this repository's own code and pipeline only - see
+[LICENSE](LICENSE) for details. The LICENSE file retains the upstream copyright
+notice from the project this repository was forked from, alongside the copyright
+for the work done here.
 
 ## Third-Party License & Attribution
 

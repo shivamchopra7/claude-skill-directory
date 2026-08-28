@@ -25,6 +25,14 @@ NPM_QUERIES = [
     "claude commands hooks",
     "claude agent skills",
 ]
+# Repository name fragments that identify this project's own published output.
+# Ingesting them would feed the crawler its own archive. Both the current name
+# and the pre-rebrand name are excluded: the old repository still exists
+# upstream and its contents are equally self-referential.
+SELF_REPO_MARKERS = (
+    "claude-skill-directory",
+    "claude-skill-registry",
+)
 ERROR_KINDS = {
     "nonzero_exit",
     "timeout",
@@ -575,6 +583,14 @@ def _load_registry_repos(registry_path: Path) -> tuple[list[str], SourceOutcome]
     return repos[:30], SourceOutcome(unit="registry_enrichment", status="success")
 
 
+def is_self_referential_repo(repo: str) -> bool:
+    """Return True when repo is this project's own registry output."""
+    if not isinstance(repo, str):
+        return False
+    lowered = repo.lower()
+    return any(marker in lowered for marker in SELF_REPO_MARKERS)
+
+
 def discover_from_registry(
     registry_path: Path,
     existing: set[str],
@@ -590,7 +606,7 @@ def discover_from_registry(
     outcomes.append(registry_outcome)
     candidates: list[dict[str, Any]] = []
     for repo in repos:
-        if repo in existing or repo in checked_repos or "claude-skill-registry" in repo:
+        if repo in existing or repo in checked_repos or is_self_referential_repo(repo):
             continue
         try:
             structure = inspect_repo_structure(repo)

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Security Scanner for SKILL.md files
-Implements automated security checks for skill registry
+Implements automated security checks for the Claude Skill Directory
 """
 
 import hashlib
@@ -31,6 +31,11 @@ from utils import split_frontmatter_content
 
 # Load schema
 SCHEMA_PATH = Path(__file__).parent.parent / "schema" / "skill.schema.json"
+# Stable, opaque scanner identity. It is NOT display branding: the value is
+# persisted in every archived security decision (scanner.name) and is folded
+# into security_ruleset_hash(), which in turn seeds each decision id. Renaming
+# it invalidates every cached decision in the archive and forces a full
+# re-scan, so it deliberately keeps its original spelling across the rebrand.
 SECURITY_SCANNER_NAME = "claude-skill-registry-security-scanner"
 SECURITY_SCANNER_VERSION = "1.1.4"
 

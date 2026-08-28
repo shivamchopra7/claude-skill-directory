@@ -1,0 +1,20 @@
+{
+  "name": "ordercli",
+  "description": "The most comprehensive directory of Claude Code skills",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "category": "integration",
+  "tags": [],
+  "stars": 48,
+  "source": "",
+  "github_path": "skills/data/ordercli",
+  "github_branch": "main",
+  "dir_name": "ordercli-shivamchopra7-claude-skill-directo-f5e09280",
+  "downloaded_at": "2026-02-05T01:45:19.173910Z",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/data/ordercli/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "numpy-string-ops",
+  "description": "The most comprehensive directory of Claude Code skills",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "category": "data",
+  "tags": [],
+  "stars": 48,
+  "source": "",
+  "github_path": "skills/numpy-string-ops",
+  "github_branch": "main",
+  "dir_name": "numpy-string-ops-shivamchopra7-claude-skill-directo",
+  "downloaded_at": "2026-02-05T05:45:06.302010Z",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/numpy-string-ops/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

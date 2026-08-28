@@ -1,0 +1,18 @@
+{
+  "name": "claude-code-bash-patterns",
+  "description": "Claude Code Bash tool patterns with hooks, automation, git workflows. Use for PreToolUse hooks, command chaining, CLI orchestration, custom commands, or encountering bash permissions, command failures",
+  "category": "development",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/data/claude-code-bash-patterns/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:15:46.175707Z",
+  "dir_name": "claude-code-bash-patterns-shivamchopra7-claude-skill-directo",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/data/claude-code-bash-patterns/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

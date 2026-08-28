@@ -349,13 +349,9 @@ class ArtifactValidator:
             pointer_plugin_count = self.require_count(pointer, "plugin_count", pointer_path)
             if plugin_count is not None and pointer_plugin_count != plugin_count:
                 self.error("plugin_count_mismatch", pointer_path, "pointer and manifest plugin counts differ")
+            # ponytail: the three-repo split is gone, so provenance must be empty.
             provenance = manifest.get("provenance")
-            provenance_fields = {"core_repo", "core_sha", "data_repo", "data_sha"}
-            provenance_ok = isinstance(provenance, dict) and (
-                not provenance
-                or set(provenance) == provenance_fields
-                and all(isinstance(provenance[key], str) and provenance[key] for key in provenance_fields)
-            )
+            provenance_ok = isinstance(provenance, dict) and not provenance
             if (
                 manifest.get("shard_strategy") != "sha256-install-branch-prefix"
                 or manifest.get("record_key") != "install|branch"
@@ -728,21 +724,6 @@ class ArtifactValidator:
             self.require_count(summary, "plugin_count", "registry_summary.json")
         return lite_total, stats_registry, summary_total
     def validate(self) -> ValidationReport:
-        provenance_dir = self.root / "provenance"
-        if provenance_dir.exists():
-            loaded = self.load_json(
-                self.root, "provenance/merge-source.json", "provenance/merge-source.json"
-            )
-            if loaded:
-                _, provenance = loaded
-                fields = {"generated_at", "core_repo", "core_sha", "data_repo", "data_sha"}
-                self.require_fields(provenance, "provenance/merge-source.json", required=fields)
-                for key in fields:
-                    self.require_nonempty(provenance, key, "provenance/merge-source.json")
-                for key in ("core_sha", "data_sha"):
-                    value = provenance.get(key)
-                    if not isinstance(value, str) or len(value) != 40 or any(c not in "0123456789abcdef" for c in value):
-                        self.error("invalid_provenance", "provenance/merge-source.json", "source revision is invalid")
         registry_total = self.check_sharded(
             self.root, "registry.json", kind="registry", aliases={"registry_skill_count_dedup"}
         )

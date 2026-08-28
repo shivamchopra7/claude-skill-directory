@@ -3,8 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Claude Skills Registry - Search Skills</title>
+    <title>Claude Skill Directory - Search Skills</title>
     <meta name="description" content="Search and discover Claude Code skills for Claude Code, Codex CLI, and ChatGPT.">
+    <link rel="canonical" href="https://shivamchopra7.github.io/claude-skill-directory/">
+    <meta name="theme-color" content="#0a0a0f" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+
+    <!-- Open Graph / social preview.
+         No og:image is declared on purpose: the repository ships no share image,
+         and a broken image URL previews worse than no image at all. Add
+         og:image + twitter:image here once a real asset exists. -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Claude Skill Directory">
+    <meta property="og:title" content="Claude Skill Directory - Search Skills">
+    <meta property="og:description" content="Search and discover Claude Code skills for Claude Code, Codex CLI, and ChatGPT.">
+    <meta property="og:url" content="https://shivamchopra7.github.io/claude-skill-directory/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Claude Skill Directory - Search Skills">
+    <meta name="twitter:description" content="Search and discover Claude Code skills for Claude Code, Codex CLI, and ChatGPT.">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
 </head>
@@ -15,7 +32,7 @@
             <div class="header-top">
                 <div class="logo">
                     <span class="logo-icon">🎯</span>
-                    <h1>Claude Skills Registry</h1>
+                    <h1>Claude Skill Directory</h1>
                 </div>
                 <button class="theme-toggle" id="theme-toggle" title="Toggle theme">
                     <span class="theme-icon" id="theme-icon">🌙</span>
@@ -30,8 +47,8 @@
                 <p>
                     After you agree, this tab records only coarse actions such as search,
                     detail view, and install copy. Search text and personal identifiers are
-                    excluded, and study events are never uploaded. Existing community features
-                    may still contact Supabase when used.
+                    excluded, and study events are never uploaded. Community features are
+                    currently disabled, so nothing you do here is sent to any server.
                 </p>
             </div>
             <div class="study-actions">
@@ -219,7 +236,7 @@
                 <div id="plugins-empty" class="empty-state hidden">
                     <span class="empty-icon">📦</span>
                     <h3>No plugins yet</h3>
-                    <p>Submit yours via <a href="https://github.com/majiayu000/claude-skill-registry/issues" target="_blank">GitHub Issues</a></p>
+                    <p>Submit yours via <a href="https://github.com/shivamchopra7/claude-skill-directory/issues" target="_blank">GitHub Issues</a></p>
                 </div>
             </div>
 
@@ -254,12 +271,8 @@
         <!-- Footer -->
         <footer class="footer">
             <div class="footer-links">
-                <a href="https://github.com/majiayu000/claude-skill-registry" target="_blank">
+                <a href="https://github.com/shivamchopra7/claude-skill-directory" target="_blank" rel="noopener noreferrer">
                     GitHub
-                </a>
-                <span class="divider">•</span>
-                <a href="https://github.com/majiayu000/claude-skill-manager" target="_blank">
-                    CLI Tool (sk)
                 </a>
             </div>
             <p class="footer-note">
@@ -278,6 +291,8 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+    <!-- Only used when community features are enabled in js/supabase-client.js.
+         Safe to remove entirely while COMMUNITY_FEATURES_ENABLED stays false. -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="js/supabase-client.js"></script>
     <script src="js/study-mode.js"></script>

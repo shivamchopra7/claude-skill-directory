@@ -2,7 +2,7 @@
 
 ## Overview
 
-This skill registry implements a multi-layered security approach to protect users from malicious skills:
+Claude Skill Directory implements a multi-layered security approach to protect users from malicious skills:
 
 1. **Schema Validation** - Strict YAML frontmatter validation
 2. **Automated Scanning** - Pattern-based security checks
@@ -153,10 +153,11 @@ Even with high-trust skills:
 
 If you discover a security vulnerability:
 
-1. **DO NOT** open a public issue
-2. Email: security@[your-domain] (if available)
-3. Or open a private security advisory on GitHub
-4. Include:
+1. **DO NOT** open a public issue.
+2. Report it privately through GitHub Security Advisories:
+   [https://github.com/shivamchopra7/claude-skill-directory/security/advisories/new](https://github.com/shivamchopra7/claude-skill-directory/security/advisories/new)
+   This is the only reporting channel.
+3. Include:
    - Skill name and repo
    - Description of the vulnerability
    - Proof of concept (if possible)
@@ -200,7 +201,7 @@ Our GitHub Actions workflows provide:
 
 If a malicious skill is discovered:
 
-1. Skill is immediately removed from registry
+1. Skill is immediately removed from the directory
 2. Security advisory is published
 3. Affected users are notified
 4. Author is blocked if intentional
@@ -225,5 +226,5 @@ This security policy and related tools are provided as-is under the MIT License.
 
 ---
 
-**Last Updated**: 2026-01-08
+**Last Updated**: 2026-08-28
 **Version**: 1.0.0

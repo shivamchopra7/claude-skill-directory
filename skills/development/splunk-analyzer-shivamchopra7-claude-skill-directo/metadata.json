@@ -1,0 +1,18 @@
+{
+  "name": "splunk-analyzer",
+  "description": "Automate Splunk queries and analyze results using Chrome DevTools MCP. Use when the user wants to run Splunk searches, export log data, or analyze Splunk results. Triggers on requests like \"check erro",
+  "category": "development",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/other/splunk-analyzer/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:15:10.445491Z",
+  "dir_name": "splunk-analyzer-shivamchopra7-claude-skill-directo",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/other/splunk-analyzer/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "cairo-modules-files",
+  "description": "Explain how Cairo modules are split across files and folders, and how `mod` declarations map to files; use when a request involves organizing modules into multiple files in Cairo.",
+  "category": "data",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/data/cairo-modules-files/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:16:00.648824Z",
+  "dir_name": "cairo-modules-files-shivamchopra7-claude-skill-directo",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/data/cairo-modules-files/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

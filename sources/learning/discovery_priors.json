@@ -4842,428 +4842,428 @@
   },
   "query_yield": {},
   "negative_cache": {
-    "majiayu000/claude-skill-registry:skills/development/lc-test/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/lc-test/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377206Z",
       "cooldown_until": "2026-09-03T08:24:32.377206Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/lc-test/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/code-review-gate/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/code-review-gate/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378037Z",
       "cooldown_until": "2026-09-03T08:24:32.378037Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/code-review-gate/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/expansion-playbook/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/expansion-playbook/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377149Z",
       "cooldown_until": "2026-09-03T08:24:32.377149Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/expansion-playbook/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/testing/entry-point-check/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/testing/entry-point-check/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.370843Z",
       "cooldown_until": "2026-09-03T08:24:32.370843Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/testing/entry-point-check/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/http-kit/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/http-kit/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.369936Z",
       "cooldown_until": "2026-09-03T08:24:32.369936Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/http-kit/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/cloudflare-d1-migrations-and-production-seeding/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/cloudflare-d1-migrations-and-production-seeding/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.376763Z",
       "cooldown_until": "2026-09-03T08:24:32.376763Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/cloudflare-d1-migrations-and-production-seeding/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/documents/sop-code-review/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/documents/sop-code-review/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377086Z",
       "cooldown_until": "2026-09-03T08:24:32.377086Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/documents/sop-code-review/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/persian/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/persian/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.370048Z",
       "cooldown_until": "2026-09-03T08:24:32.370048Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/persian/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/tech_spike/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/tech_spike/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.370327Z",
       "cooldown_until": "2026-09-03T08:24:32.370327Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/tech_spike/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/partner-revenue-desk/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/partner-revenue-desk/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377901Z",
       "cooldown_until": "2026-09-03T08:24:32.377901Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/partner-revenue-desk/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/using-skillpack-maintenance/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/using-skillpack-maintenance/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378340Z",
       "cooldown_until": "2026-09-03T08:24:32.378340Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/using-skillpack-maintenance/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/art-prompt/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/art-prompt/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.370704Z",
       "cooldown_until": "2026-09-03T08:24:32.370704Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/art-prompt/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/design/versioning/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/design/versioning/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378730Z",
       "cooldown_until": "2026-09-03T08:24:32.378730Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/design/versioning/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/design/url-routing-patterns/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/design/url-routing-patterns/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378385Z",
       "cooldown_until": "2026-09-03T08:24:32.378385Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/design/url-routing-patterns/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/http-kit/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/http-kit/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.376627Z",
       "cooldown_until": "2026-09-03T08:24:32.376627Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/http-kit/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/partner-revenue-desk/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/partner-revenue-desk/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377646Z",
       "cooldown_until": "2026-09-03T08:24:32.377646Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/partner-revenue-desk/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/definitiontech-spike/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/definitiontech-spike/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378774Z",
       "cooldown_until": "2026-09-03T08:24:32.378774Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/definitiontech-spike/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/numpy-string-ops/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/numpy-string-ops/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377426Z",
       "cooldown_until": "2026-09-03T08:24:32.377426Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/numpy-string-ops/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/android-stop-app/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/android-stop-app/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.369836Z",
       "cooldown_until": "2026-09-03T08:24:32.369836Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/android-stop-app/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/design/roadmap-guide/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/design/roadmap-guide/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.369995Z",
       "cooldown_until": "2026-09-03T08:24:32.369995Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/design/roadmap-guide/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/design/libraries-dependencies-mastery/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/design/libraries-dependencies-mastery/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.376902Z",
       "cooldown_until": "2026-09-03T08:24:32.376902Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/design/libraries-dependencies-mastery/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/自更新/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/自更新/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378292Z",
       "cooldown_until": "2026-09-03T08:24:32.378292Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/自更新/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/other/13-how-to-master-the-planning-practice-second-stage-skill/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/other/13-how-to-master-the-planning-practice-second-stage-skill/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.370429Z",
       "cooldown_until": "2026-09-03T08:24:32.370429Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/other/13-how-to-master-the-planning-practice-second-stage-skill/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/security/service-mesh-implementation/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/security/service-mesh-implementation/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.376947Z",
       "cooldown_until": "2026-09-03T08:24:32.376947Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/security/service-mesh-implementation/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/other/remediation-options/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/other/remediation-options/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377732Z",
       "cooldown_until": "2026-09-03T08:24:32.377732Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/other/remediation-options/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/creating-bookmarklets/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/creating-bookmarklets/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378943Z",
       "cooldown_until": "2026-09-03T08:24:32.378943Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/creating-bookmarklets/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/splunk-analyzer/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/splunk-analyzer/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378081Z",
       "cooldown_until": "2026-09-03T08:24:32.378081Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/splunk-analyzer/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/design/orcaflex-model-generator/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/design/orcaflex-model-generator/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.368448Z",
       "cooldown_until": "2026-09-03T08:24:32.368448Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/design/orcaflex-model-generator/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/other/uloop-execute-dynamic-code/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/other/uloop-execute-dynamic-code/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378515Z",
       "cooldown_until": "2026-09-03T08:24:32.378515Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/other/uloop-execute-dynamic-code/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/vercel-upgrade-migration/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/vercel-upgrade-migration/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378150Z",
       "cooldown_until": "2026-09-03T08:24:32.378150Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/vercel-upgrade-migration/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/code-documentation-analyzer/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/code-documentation-analyzer/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.370656Z",
       "cooldown_until": "2026-09-03T08:24:32.370656Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/code-documentation-analyzer/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/testing/unity-unitask/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/testing/unity-unitask/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377598Z",
       "cooldown_until": "2026-09-03T08:24:32.377598Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/testing/unity-unitask/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/design/performing-orthonotone-polychoral-instrument/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/design/performing-orthonotone-polychoral-instrument/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.376526Z",
       "cooldown_until": "2026-09-03T08:24:32.376526Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/design/performing-orthonotone-polychoral-instrument/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/expansion-playbook/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/expansion-playbook/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.370372Z",
       "cooldown_until": "2026-09-03T08:24:32.370372Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/expansion-playbook/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/design/cfn-intervention-system/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/design/cfn-intervention-system/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.376856Z",
       "cooldown_until": "2026-09-03T08:24:32.376856Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/design/cfn-intervention-system/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/promote/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/promote/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.376810Z",
       "cooldown_until": "2026-09-03T08:24:32.376810Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/promote/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/creating-skills-skill/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/creating-skills-skill/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.379116Z",
       "cooldown_until": "2026-09-03T08:24:32.379116Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/creating-skills-skill/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/_posts/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/_posts/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377040Z",
       "cooldown_until": "2026-09-03T08:24:32.377040Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/_posts/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/vercel-upgrade-migration/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/vercel-upgrade-migration/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378687Z",
       "cooldown_until": "2026-09-03T08:24:32.378687Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/vercel-upgrade-migration/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/alignment-verification/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/alignment-verification/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.370539Z",
       "cooldown_until": "2026-09-03T08:24:32.370539Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/alignment-verification/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/design/caching-utilities/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/design/caching-utilities/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.376719Z",
       "cooldown_until": "2026-09-03T08:24:32.376719Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/design/caching-utilities/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/orthonotone-development/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/orthonotone-development/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.370176Z",
       "cooldown_until": "2026-09-03T08:24:32.370176Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/orthonotone-development/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/iot-edge-module/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/iot-edge-module/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.376580Z",
       "cooldown_until": "2026-09-03T08:24:32.376580Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/iot-edge-module/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/devops/portfolio-manager-agent/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/devops/portfolio-manager-agent/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378471Z",
       "cooldown_until": "2026-09-03T08:24:32.378471Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/devops/portfolio-manager-agent/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/other/ai-agent-tool-builder/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/other/ai-agent-tool-builder/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378601Z",
       "cooldown_until": "2026-09-03T08:24:32.378601Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/other/ai-agent-tool-builder/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/quality-code-check/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/quality-code-check/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378902Z",
       "cooldown_until": "2026-09-03T08:24:32.378902Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/quality-code-check/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/other/executedynamiccode/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/other/executedynamiccode/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378644Z",
       "cooldown_until": "2026-09-03T08:24:32.378644Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/other/executedynamiccode/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/design/building-agents/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/design/building-agents/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378859Z",
       "cooldown_until": "2026-09-03T08:24:32.378859Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/design/building-agents/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/performing-orthonotone-polychoral-instrument/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/performing-orthonotone-polychoral-instrument/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.370280Z",
       "cooldown_until": "2026-09-03T08:24:32.370280Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/performing-orthonotone-polychoral-instrument/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/other/api-admin-ops/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/other/api-admin-ops/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377816Z",
       "cooldown_until": "2026-09-03T08:24:32.377816Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/other/api-admin-ops/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/policyengine-aggregation/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/policyengine-aggregation/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.379192Z",
       "cooldown_until": "2026-09-03T08:24:32.379192Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/policyengine-aggregation/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/deploying-monitoring-stacks/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/deploying-monitoring-stacks/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.370230Z",
       "cooldown_until": "2026-09-03T08:24:32.370230Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/deploying-monitoring-stacks/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/design-production/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/design-production/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377251Z",
       "cooldown_until": "2026-09-03T08:24:32.377251Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/design-production/SKILL.md"
     },
     "julianromli/opencode-template:skills/using-superpowers/SKILL.md": {
@@ -5298,12 +5298,12 @@
       "repo": "openai/openai-agents-python",
       "path": ".codex/skills/pr-draft-summary/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/sag-disabled/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/sag-disabled/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377383Z",
       "cooldown_until": "2026-09-03T08:24:32.377383Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/sag-disabled/SKILL.md"
     },
     "openai/openai-agents-python:.codex/skills/test-coverage-improver/SKILL.md": {
@@ -5314,12 +5314,12 @@
       "repo": "openai/openai-agents-python",
       "path": ".codex/skills/test-coverage-improver/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/documents/reviewing-content-governance/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/documents/reviewing-content-governance/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378558Z",
       "cooldown_until": "2026-09-03T08:24:32.378558Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/documents/reviewing-content-governance/SKILL.md"
     },
     "benchflow-ai/skillsbench:registry/terminal_bench_2.0/full_batch_reviewed/terminal_bench_2_0_path-tracing-reverse/environment/skills/binary-triage/SKILL.md": {
@@ -5346,12 +5346,12 @@
       "repo": "clawdbot/clawdbot",
       "path": "skills/local-places/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/design/applying-brand-guidelines/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/design/applying-brand-guidelines/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.370750Z",
       "cooldown_until": "2026-09-03T08:24:32.370750Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/design/applying-brand-guidelines/SKILL.md"
     },
     "notedit/happy-coding-agent:skills/skill-creation-guide/SKILL.md": {
@@ -5362,52 +5362,52 @@
       "repo": "notedit/happy-coding-agent",
       "path": "skills/skill-creation-guide/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/other/automation-expert/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/other/automation-expert/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377951Z",
       "cooldown_until": "2026-09-03T08:24:32.377951Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/other/automation-expert/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/budget-ui-components/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/budget-ui-components/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377859Z",
       "cooldown_until": "2026-09-03T08:24:32.377859Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/budget-ui-components/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/product/oracle-path/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/product/oracle-path/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377555Z",
       "cooldown_until": "2026-09-03T08:24:32.377555Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/product/oracle-path/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/obra-using-superpowers/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/obra-using-superpowers/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378987Z",
       "cooldown_until": "2026-09-03T08:24:32.378987Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/obra-using-superpowers/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/productivity/synapse/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/productivity/synapse/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.876575Z",
       "cooldown_until": "2026-09-03T08:24:32.876575Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/productivity/synapse/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/productivity/generate-tasks/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/productivity/generate-tasks/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.847463Z",
       "cooldown_until": "2026-09-03T08:24:32.847463Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/productivity/generate-tasks/SKILL.md"
     },
     "raphaelsalaja/userinterface-wiki:.codex/skills/web-design-guidelines/SKILL.md": {
@@ -5418,36 +5418,36 @@
       "repo": "raphaelsalaja/userinterface-wiki",
       "path": ".codex/skills/web-design-guidelines/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/think-ahead/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/think-ahead/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.370098Z",
       "cooldown_until": "2026-09-03T08:24:32.370098Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/think-ahead/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/design/git/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/design/git/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377295Z",
       "cooldown_until": "2026-09-03T08:24:32.377295Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/design/git/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/translate-it-article/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/translate-it-article/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377512Z",
       "cooldown_until": "2026-09-03T08:24:32.377512Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/translate-it-article/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/documents/content-governance-review/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/documents/content-governance-review/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377773Z",
       "cooldown_until": "2026-09-03T08:24:32.377773Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/documents/content-governance-review/SKILL.md"
     },
     "danielmiessler/Personal_AI_Infrastructure:Packs/pai-council-skill/src/skills/Council/SKILL.md": {
@@ -5458,28 +5458,28 @@
       "repo": "danielmiessler/Personal_AI_Infrastructure",
       "path": "Packs/pai-council-skill/src/skills/Council/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/other/jules-audit-request/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/other/jules-audit-request/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378247Z",
       "cooldown_until": "2026-09-03T08:24:32.378247Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/other/jules-audit-request/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/testing/template-mason-brick/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/testing/template-mason-brick/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.379072Z",
       "cooldown_until": "2026-09-03T08:24:32.379072Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/testing/template-mason-brick/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/write-pr/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/write-pr/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.370797Z",
       "cooldown_until": "2026-09-03T08:24:32.370797Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/write-pr/SKILL.md"
     },
     "srbhr/Resume-Matcher:.agent/skills/design-principles/skill.md": {
@@ -5522,220 +5522,220 @@
       "repo": "argos-ci/argos",
       "path": "skills/web-design-guidelines/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/consult-codex/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/consult-codex/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378203Z",
       "cooldown_until": "2026-09-03T08:24:32.378203Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/consult-codex/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/coding-tutor/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/coding-tutor/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378816Z",
       "cooldown_until": "2026-09-03T08:24:32.378816Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/coding-tutor/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/security-skills/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/security-skills/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377468Z",
       "cooldown_until": "2026-09-03T08:24:32.377468Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/security-skills/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/other/sag-disabled/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/other/sag-disabled/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.379028Z",
       "cooldown_until": "2026-09-03T08:24:32.379028Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/other/sag-disabled/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/other/9-4091-clearskill/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/other/9-4091-clearskill/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.370491Z",
       "cooldown_until": "2026-09-03T08:24:32.370491Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/other/9-4091-clearskill/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/testing/babel-config/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/testing/babel-config/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.376457Z",
       "cooldown_until": "2026-09-03T08:24:32.376457Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/testing/babel-config/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/task-execution-engine/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/task-execution-engine/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.370605Z",
       "cooldown_until": "2026-09-03T08:24:32.370605Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/task-execution-engine/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/gh-issue-lifecycle/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/gh-issue-lifecycle/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.378427Z",
       "cooldown_until": "2026-09-03T08:24:32.378427Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/gh-issue-lifecycle/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/claude-code-meta/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/claude-code-meta/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.969106Z",
       "cooldown_until": "2026-09-03T08:24:32.969106Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/claude-code-meta/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/other/clearskill/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/other/clearskill/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.376674Z",
       "cooldown_until": "2026-09-03T08:24:32.376674Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/other/clearskill/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/careercopilot-agent-scaffolder/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/careercopilot-agent-scaffolder/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:33.074192Z",
       "cooldown_until": "2026-09-03T08:24:33.074192Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/careercopilot-agent-scaffolder/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/design/brand-voice-consistency/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/design/brand-voice-consistency/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.931749Z",
       "cooldown_until": "2026-09-03T08:24:32.931749Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/design/brand-voice-consistency/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/automation_expert/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/automation_expert/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.376993Z",
       "cooldown_until": "2026-09-03T08:24:32.376993Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/automation_expert/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/devops/security-analyzer/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/devops/security-analyzer/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.963769Z",
       "cooldown_until": "2026-09-03T08:24:32.963769Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/devops/security-analyzer/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/moai-cc-permission-mode/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/moai-cc-permission-mode/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.881209Z",
       "cooldown_until": "2026-09-03T08:24:32.881209Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/moai-cc-permission-mode/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/add-cuda-kernel/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/add-cuda-kernel/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377994Z",
       "cooldown_until": "2026-09-03T08:24:32.377994Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/add-cuda-kernel/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/design/building-nextjs-apps/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/design/building-nextjs-apps/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.985009Z",
       "cooldown_until": "2026-09-03T08:24:32.985009Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/design/building-nextjs-apps/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/velocity-tracker/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/velocity-tracker/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:33.063816Z",
       "cooldown_until": "2026-09-03T08:24:33.063816Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/velocity-tracker/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/process-resume-skill/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/process-resume-skill/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.975473Z",
       "cooldown_until": "2026-09-03T08:24:32.975473Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/process-resume-skill/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/taipei-parking-query/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/taipei-parking-query/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.990671Z",
       "cooldown_until": "2026-09-03T08:24:32.990671Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/taipei-parking-query/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/productivity/single-source-validator/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/productivity/single-source-validator/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.969688Z",
       "cooldown_until": "2026-09-03T08:24:32.969688Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/productivity/single-source-validator/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/documents/review-format/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/documents/review-format/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377339Z",
       "cooldown_until": "2026-09-03T08:24:32.377339Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/documents/review-format/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/my-react-rules/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/my-react-rules/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.368020Z",
       "cooldown_until": "2026-09-03T08:24:32.368020Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/my-react-rules/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/validation-api-engineer-role/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/validation-api-engineer-role/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:34.993459Z",
       "cooldown_until": "2026-09-03T08:24:34.993459Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/validation-api-engineer-role/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/productivity/bmad-master/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/productivity/bmad-master/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:33.000235Z",
       "cooldown_until": "2026-09-03T08:24:33.000235Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/productivity/bmad-master/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/issue-maker/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/issue-maker/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.987899Z",
       "cooldown_until": "2026-09-03T08:24:32.987899Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/issue-maker/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/mymind-coding-patterns/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/mymind-coding-patterns/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:33.013534Z",
       "cooldown_until": "2026-09-03T08:24:33.013534Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/mymind-coding-patterns/SKILL.md"
     },
     "clawdbot/clawdbot:skills/food-order/SKILL.md": {
@@ -5746,132 +5746,132 @@
       "repo": "clawdbot/clawdbot",
       "path": "skills/food-order/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/productivity/cascade-orchestrator/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/productivity/cascade-orchestrator/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.993995Z",
       "cooldown_until": "2026-09-03T08:24:32.993995Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/productivity/cascade-orchestrator/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/other/pr-pm-prpm-claude-skills-agent-builder-skill/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/other/pr-pm-prpm-claude-skills-agent-builder-skill/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.973742Z",
       "cooldown_until": "2026-09-03T08:24:32.973742Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/other/pr-pm-prpm-claude-skills-agent-builder-skill/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/productivity/executing-hms-runs/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/productivity/executing-hms-runs/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.994668Z",
       "cooldown_until": "2026-09-03T08:24:32.994668Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/productivity/executing-hms-runs/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/gh-issue-lifecycle/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/gh-issue-lifecycle/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.377690Z",
       "cooldown_until": "2026-09-03T08:24:32.377690Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/gh-issue-lifecycle/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/risk-profile/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/risk-profile/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.948897Z",
       "cooldown_until": "2026-09-03T08:24:32.948897Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/risk-profile/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/querying-gemini/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/querying-gemini/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:33.002794Z",
       "cooldown_until": "2026-09-03T08:24:33.002794Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/querying-gemini/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/design/api-cache-invalidation/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/design/api-cache-invalidation/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.944778Z",
       "cooldown_until": "2026-09-03T08:24:32.944778Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/design/api-cache-invalidation/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/testing/claude-ecosystem-promoter/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/testing/claude-ecosystem-promoter/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:33.005320Z",
       "cooldown_until": "2026-09-03T08:24:33.005320Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/testing/claude-ecosystem-promoter/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/design/n8n-workflow-architect/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/design/n8n-workflow-architect/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.947016Z",
       "cooldown_until": "2026-09-03T08:24:32.947016Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/design/n8n-workflow-architect/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/adb-skill-generator/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/adb-skill-generator/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.948120Z",
       "cooldown_until": "2026-09-03T08:24:32.948120Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/adb-skill-generator/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/productivity/i18n-automation/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/productivity/i18n-automation/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.873836Z",
       "cooldown_until": "2026-09-03T08:24:32.873836Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/productivity/i18n-automation/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/querying-gemini/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/querying-gemini/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:33.102831Z",
       "cooldown_until": "2026-09-03T08:24:33.102831Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/querying-gemini/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/testing/filament-resource-generator/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/testing/filament-resource-generator/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.990735Z",
       "cooldown_until": "2026-09-03T08:24:32.990735Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/testing/filament-resource-generator/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/devops/quality-gate/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/devops/quality-gate/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.997093Z",
       "cooldown_until": "2026-09-03T08:24:32.997093Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/devops/quality-gate/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/esphome-config-helper/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/esphome-config-helper/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.870731Z",
       "cooldown_until": "2026-09-03T08:24:32.870731Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/esphome-config-helper/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/claude-typescript-sdk/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/claude-typescript-sdk/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.877894Z",
       "cooldown_until": "2026-09-03T08:24:32.877894Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/claude-typescript-sdk/SKILL.md"
     },
     "PostHog/posthog:.claude/skills/implementing-agent-modes/SKILL.md": {
@@ -5882,484 +5882,484 @@
       "repo": "PostHog/posthog",
       "path": ".claude/skills/implementing-agent-modes/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/plugin-marketplace-creator/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/plugin-marketplace-creator/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.967980Z",
       "cooldown_until": "2026-09-03T08:24:32.967980Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/plugin-marketplace-creator/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/other/nathanvale-vtm-cli-claude-skills-git-expert-skill/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/other/nathanvale-vtm-cli-claude-skills-git-expert-skill/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.907298Z",
       "cooldown_until": "2026-09-03T08:24:32.907298Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/other/nathanvale-vtm-cli-claude-skills-git-expert-skill/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/documents/protocol-expert/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/documents/protocol-expert/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.859786Z",
       "cooldown_until": "2026-09-03T08:24:32.859786Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/documents/protocol-expert/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/other/skill-md-jinja/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/other/skill-md-jinja/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.978852Z",
       "cooldown_until": "2026-09-03T08:24:32.978852Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/other/skill-md-jinja/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/student-activity-analysis/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/student-activity-analysis/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.949628Z",
       "cooldown_until": "2026-09-03T08:24:32.949628Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/student-activity-analysis/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/safe-agent-selective/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/safe-agent-selective/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.982978Z",
       "cooldown_until": "2026-09-03T08:24:32.982978Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/safe-agent-selective/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/when-detecting-fake-code-use-theater-detection/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/when-detecting-fake-code-use-theater-detection/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.966045Z",
       "cooldown_until": "2026-09-03T08:24:32.966045Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/when-detecting-fake-code-use-theater-detection/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/agent-refactoring-specialist/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/agent-refactoring-specialist/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.987683Z",
       "cooldown_until": "2026-09-03T08:24:32.987683Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/agent-refactoring-specialist/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/m365-agent-architect/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/m365-agent-architect/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.968045Z",
       "cooldown_until": "2026-09-03T08:24:32.968045Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/m365-agent-architect/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/agent-evaluation-mlflow/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/agent-evaluation-mlflow/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.994934Z",
       "cooldown_until": "2026-09-03T08:24:32.994934Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/agent-evaluation-mlflow/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/pagent/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/pagent/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.950722Z",
       "cooldown_until": "2026-09-03T08:24:32.950722Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/pagent/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/multi-agent/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/multi-agent/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.984063Z",
       "cooldown_until": "2026-09-03T08:24:32.984063Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/multi-agent/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/pydantic-ai-agent-creation/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/pydantic-ai-agent-creation/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:33.023085Z",
       "cooldown_until": "2026-09-03T08:24:33.023085Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/pydantic-ai-agent-creation/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/child-agent-ops/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/child-agent-ops/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.948830Z",
       "cooldown_until": "2026-09-03T08:24:32.948830Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/child-agent-ops/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/agent-devops-incident-responder/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/agent-devops-incident-responder/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.971415Z",
       "cooldown_until": "2026-09-03T08:24:32.971415Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/agent-devops-incident-responder/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/child-agent-ops/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/child-agent-ops/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.948596Z",
       "cooldown_until": "2026-09-03T08:24:32.948596Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/child-agent-ops/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/convex-agents-files/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/convex-agents-files/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.974837Z",
       "cooldown_until": "2026-09-03T08:24:32.974837Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/convex-agents-files/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/architect-agent/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/architect-agent/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:35.124775Z",
       "cooldown_until": "2026-09-03T08:24:35.124775Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/architect-agent/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/agent-onboarding/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/agent-onboarding/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:33.066986Z",
       "cooldown_until": "2026-09-03T08:24:33.066986Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/agent-onboarding/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/agent-native-reviewer/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/agent-native-reviewer/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.996838Z",
       "cooldown_until": "2026-09-03T08:24:32.996838Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/agent-native-reviewer/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/package-agent/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/package-agent/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.956565Z",
       "cooldown_until": "2026-09-03T08:24:32.956565Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/package-agent/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/cfn-agent-tooling/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/cfn-agent-tooling/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.974312Z",
       "cooldown_until": "2026-09-03T08:24:32.974312Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/cfn-agent-tooling/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/release-procedures/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/release-procedures/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.989762Z",
       "cooldown_until": "2026-09-03T08:24:32.989762Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/release-procedures/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/testing/agent-risk-manager/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/testing/agent-risk-manager/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.969749Z",
       "cooldown_until": "2026-09-03T08:24:32.969749Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/testing/agent-risk-manager/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/agent-debugging/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/agent-debugging/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.956791Z",
       "cooldown_until": "2026-09-03T08:24:32.956791Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/agent-debugging/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/productivity/agent-dx-optimizer/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/productivity/agent-dx-optimizer/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:33.001649Z",
       "cooldown_until": "2026-09-03T08:24:33.001649Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/productivity/agent-dx-optimizer/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/agent-md-generator/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/agent-md-generator/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.983500Z",
       "cooldown_until": "2026-09-03T08:24:32.983500Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/agent-md-generator/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/productivity/your-sub-agent-name/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/productivity/your-sub-agent-name/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.883894Z",
       "cooldown_until": "2026-09-03T08:24:32.883894Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/productivity/your-sub-agent-name/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/testing/debug-surefire/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/testing/debug-surefire/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:35.005511Z",
       "cooldown_until": "2026-09-03T08:24:35.005511Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/testing/debug-surefire/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/design/agent-llm-architect/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/design/agent-llm-architect/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.994748Z",
       "cooldown_until": "2026-09-03T08:24:32.994748Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/design/agent-llm-architect/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/accelerator-research-agent/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/accelerator-research-agent/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.947427Z",
       "cooldown_until": "2026-09-03T08:24:32.947427Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/accelerator-research-agent/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/other/reviewing-changes/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/other/reviewing-changes/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.971234Z",
       "cooldown_until": "2026-09-03T08:24:32.971234Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/other/reviewing-changes/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/design/binary-triage/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/design/binary-triage/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:33.016322Z",
       "cooldown_until": "2026-09-03T08:24:33.016322Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/design/binary-triage/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/wolf-scripts-agents/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/wolf-scripts-agents/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.962595Z",
       "cooldown_until": "2026-09-03T08:24:32.962595Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/wolf-scripts-agents/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/product/convex-agents-usage-tracking/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/product/convex-agents-usage-tracking/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:33.002732Z",
       "cooldown_until": "2026-09-03T08:24:33.002732Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/product/convex-agents-usage-tracking/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/agent-incident-responder/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/agent-incident-responder/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.963652Z",
       "cooldown_until": "2026-09-03T08:24:32.963652Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/agent-incident-responder/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/spawn-search-agents/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/spawn-search-agents/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.996585Z",
       "cooldown_until": "2026-09-03T08:24:32.996585Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/spawn-search-agents/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/langsmith-fetch/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/langsmith-fetch/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.881413Z",
       "cooldown_until": "2026-09-03T08:24:32.881413Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/langsmith-fetch/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/critique-agent/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/critique-agent/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:33.018835Z",
       "cooldown_until": "2026-09-03T08:24:33.018835Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/critique-agent/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/vulnerability-scan-agent/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/vulnerability-scan-agent/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.907136Z",
       "cooldown_until": "2026-09-03T08:24:32.907136Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/vulnerability-scan-agent/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/marketing/text-analyzer/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/marketing/text-analyzer/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.945758Z",
       "cooldown_until": "2026-09-03T08:24:32.945758Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/marketing/text-analyzer/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/binary-triage/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/binary-triage/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:33.024911Z",
       "cooldown_until": "2026-09-03T08:24:33.024911Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/binary-triage/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/devops/constitution-validator-agent/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/devops/constitution-validator-agent/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.987584Z",
       "cooldown_until": "2026-09-03T08:24:32.987584Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/devops/constitution-validator-agent/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/create-tia-agent/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/create-tia-agent/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:33.097383Z",
       "cooldown_until": "2026-09-03T08:24:33.097383Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/create-tia-agent/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/checkpoint-mode/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/checkpoint-mode/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.988971Z",
       "cooldown_until": "2026-09-03T08:24:32.988971Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/checkpoint-mode/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/reviewer-agent/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/reviewer-agent/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.984606Z",
       "cooldown_until": "2026-09-03T08:24:32.984606Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/reviewer-agent/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/security-audit-agent/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/security-audit-agent/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:33.002620Z",
       "cooldown_until": "2026-09-03T08:24:33.002620Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/security-audit-agent/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/agent-output-formats/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/agent-output-formats/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:33.002054Z",
       "cooldown_until": "2026-09-03T08:24:33.002054Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/agent-output-formats/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/design/multi-agent-research/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/design/multi-agent-research/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.988901Z",
       "cooldown_until": "2026-09-03T08:24:32.988901Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/design/multi-agent-research/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/testing/selecting-agents/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/testing/selecting-agents/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:35.194580Z",
       "cooldown_until": "2026-09-03T08:24:35.194580Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/testing/selecting-agents/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/managing-agent-skills/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/managing-agent-skills/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:35.006020Z",
       "cooldown_until": "2026-09-03T08:24:35.006020Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/managing-agent-skills/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/debug-surefire/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/debug-surefire/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:35.193820Z",
       "cooldown_until": "2026-09-03T08:24:35.193820Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/debug-surefire/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/Workflows/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/Workflows/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:33.036937Z",
       "cooldown_until": "2026-09-03T08:24:33.036937Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/Workflows/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/macro-agent/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/macro-agent/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.989945Z",
       "cooldown_until": "2026-09-03T08:24:32.989945Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/macro-agent/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/devops/agent-scrum-master/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/devops/agent-scrum-master/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.875554Z",
       "cooldown_until": "2026-09-03T08:24:32.875554Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/devops/agent-scrum-master/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/sherpa/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/sherpa/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:35.176262Z",
       "cooldown_until": "2026-09-03T08:24:35.176262Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/sherpa/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/agent-skills-expert/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/agent-skills-expert/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.931266Z",
       "cooldown_until": "2026-09-03T08:24:32.931266Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/agent-skills-expert/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/other/00-build-livekit-skill/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/other/00-build-livekit-skill/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:35.214100Z",
       "cooldown_until": "2026-09-03T08:24:35.214100Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/other/00-build-livekit-skill/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/agent-git-workflow-manager/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/agent-git-workflow-manager/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:32.969192Z",
       "cooldown_until": "2026-09-03T08:24:32.969192Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/agent-git-workflow-manager/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/atlas-agent-developer/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/atlas-agent-developer/SKILL.md": {
       "reason": "not_found",
       "count": 20,
       "last_seen_at": "2026-08-27T08:24:35.177087Z",
       "cooldown_until": "2026-09-03T08:24:35.177087Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/atlas-agent-developer/SKILL.md"
     },
     "Tony363/SuperClaude:.claude/skills/DEPRECATED/agent-devops-incident-responder/SKILL.md": {
@@ -8890,52 +8890,52 @@
       "repo": "park-kyungchan/palantir",
       "path": ".claude/plugins/cache/claude-plugins-official/hookify/e30768372b41/skills/writing-rules/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/ai-agent-tool-builder/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/ai-agent-tool-builder/SKILL.md": {
       "reason": "not_found",
       "count": 5,
       "last_seen_at": "2026-08-22T01:47:10.227768Z",
       "cooldown_until": "2026-08-29T01:47:10.227768Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/ai-agent-tool-builder/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/privacy-review/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/privacy-review/SKILL.md": {
       "reason": "not_found",
       "count": 5,
       "last_seen_at": "2026-08-22T01:47:10.228218Z",
       "cooldown_until": "2026-08-29T01:47:10.228218Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/privacy-review/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/other/writing-rules/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/other/writing-rules/SKILL.md": {
       "reason": "not_found",
       "count": 5,
       "last_seen_at": "2026-08-22T01:47:10.229284Z",
       "cooldown_until": "2026-08-29T01:47:10.229284Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/other/writing-rules/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/agentic-design/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/agentic-design/SKILL.md": {
       "reason": "not_found",
       "count": 5,
       "last_seen_at": "2026-08-22T01:47:10.227262Z",
       "cooldown_until": "2026-08-29T01:47:10.227262Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/agentic-design/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/other/wordpress-penetration-testing/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/other/wordpress-penetration-testing/SKILL.md": {
       "reason": "not_found",
       "count": 5,
       "last_seen_at": "2026-08-22T01:47:10.228108Z",
       "cooldown_until": "2026-08-29T01:47:10.228108Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/other/wordpress-penetration-testing/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/development/flask-api-development/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/development/flask-api-development/SKILL.md": {
       "reason": "not_found",
       "count": 5,
       "last_seen_at": "2026-08-22T01:47:10.227700Z",
       "cooldown_until": "2026-08-29T01:47:10.227700Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/development/flask-api-development/SKILL.md"
     },
     "tylermiranda/Questly:.codex/skills/code-review-excellence/SKILL.md": {
@@ -8946,36 +8946,36 @@
       "repo": "tylermiranda/Questly",
       "path": ".codex/skills/code-review-excellence/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/other/agentic-design/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/other/agentic-design/SKILL.md": {
       "reason": "not_found",
       "count": 5,
       "last_seen_at": "2026-08-22T01:47:10.227892Z",
       "cooldown_until": "2026-08-29T01:47:10.227892Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/other/agentic-design/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/sse-resilience/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/sse-resilience/SKILL.md": {
       "reason": "not_found",
       "count": 5,
       "last_seen_at": "2026-08-22T01:47:10.228053Z",
       "cooldown_until": "2026-08-29T01:47:10.228053Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/sse-resilience/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/critique-agent/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/critique-agent/SKILL.md": {
       "reason": "not_found",
       "count": 5,
       "last_seen_at": "2026-08-22T01:47:10.228772Z",
       "cooldown_until": "2026-08-29T01:47:10.228772Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/critique-agent/SKILL.md"
     },
-    "majiayu000/claude-skill-registry:skills/data/flask-api-development/SKILL.md": {
+    "shivamchopra7/claude-skill-directory:skills/data/flask-api-development/SKILL.md": {
       "reason": "not_found",
       "count": 5,
       "last_seen_at": "2026-08-22T01:47:10.228996Z",
       "cooldown_until": "2026-08-29T01:47:10.228996Z",
-      "repo": "majiayu000/claude-skill-registry",
+      "repo": "shivamchopra7/claude-skill-directory",
       "path": "skills/data/flask-api-development/SKILL.md"
     },
     "otrebu/all-agents:.claude/plugins/cache/claude-code-plugins/hookify/0.1.0/skills/writing-rules/SKILL.md": {

@@ -3,9 +3,12 @@ name: Deploy GitHub Pages
 on:
   push:
     branches: [main]
-    paths:
-      - "docs/**"
-      - ".github/workflows/deploy-pages.yml"
+    paths-ignore:
+      - "skills/**"
+      - "tests/**"
+      - ".github/ISSUE_TEMPLATE/**"
+      - ".github/PULL_REQUEST_TEMPLATE.md"
+      - "THIRD_PARTY_NOTICES.md"
   workflow_dispatch:
 
 permissions:

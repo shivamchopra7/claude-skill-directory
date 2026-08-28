@@ -473,6 +473,11 @@ async function showSkillDetail(card) {
     const isFavorite = state.favorites.includes(install);
     const isOfficial = skill.c === 'off';
 
+    // Likes and comments need the community backend. While it is disabled
+    // (see js/supabase-client.js) the controls are omitted entirely rather
+    // than rendered inert.
+    const communityEnabled = !!(window.SkillsDB && window.SkillsDB.enabled);
+
     // Find similar skills based on tags
     const similarSkills = findSimilarSkills(skill, 4);
     const similarHtml = similarSkills.length > 0 ? `
@@ -509,6 +514,7 @@ async function showSkillDetail(card) {
         ${tagsHtml ? `<div style="margin-bottom: 1rem;">${tagsHtml}</div>` : ''}
 
         <!-- Community Stats -->
+        ${communityEnabled ? `
         <div class="community-stats" id="community-stats-${escapeHtml(install).replace(/[^a-zA-Z0-9]/g, '-')}">
             <button class="like-btn" id="like-btn" data-install="${escapeHtml(install)}" onclick="handleLike(event)">
                 <span class="like-icon">👍</span>
@@ -516,6 +522,7 @@ async function showSkillDetail(card) {
             </button>
             <span class="comment-count" id="comment-count-display">💬 0 comments</span>
         </div>
+        ` : ''}
 
         <div style="margin-top: 1.5rem;">
             <strong>Install:</strong>
@@ -535,6 +542,7 @@ async function showSkillDetail(card) {
         ${similarHtml}
 
         <!-- Comments Section -->
+        ${communityEnabled ? `
         <div class="comments-section">
             <h4>💬 Comments</h4>
             <div class="comment-form">
@@ -553,17 +561,20 @@ async function showSkillDetail(card) {
                 <div class="loading-comments">Loading comments...</div>
             </div>
         </div>
+        ` : ''}
     `;
 
     elements.modal.classList.remove('hidden');
 
     // Load community stats and comments
-    loadCommunityData(install);
+    if (communityEnabled) {
+        loadCommunityData(install);
+    }
 }
 
 // Load community data (stats + comments)
 async function loadCommunityData(install) {
-    if (!window.SkillsDB) return;
+    if (!window.SkillsDB || !window.SkillsDB.enabled) return;
 
     try {
         // Load stats
@@ -588,13 +599,13 @@ async function loadCommunityData(install) {
         renderComments(comments);
 
     } catch (error) {
-        console.error('Error loading community data:', error);
+        console.warn('Could not load community data.');
     }
 }
 
 // Handle like button click
 async function handleLike(event) {
-    if (!window.SkillsDB) return;
+    if (!window.SkillsDB || !window.SkillsDB.enabled) return;
     const install = event.currentTarget.getAttribute('data-install');
 
     const likeBtn = document.getElementById('like-btn');
@@ -635,7 +646,7 @@ function updateRatingDisplay(rating) {
 
 // Handle comment submission
 async function handleSubmitComment(event) {
-    if (!window.SkillsDB) return;
+    if (!window.SkillsDB || !window.SkillsDB.enabled) return;
     const install = event.currentTarget.getAttribute('data-install');
 
     const nicknameInput = document.getElementById('comment-nickname');

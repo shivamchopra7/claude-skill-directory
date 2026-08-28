@@ -1,0 +1,18 @@
+{
+  "name": "agent-evaluation-mlflow",
+  "description": "Implement agent evaluation and safety gates using MLflow 3.x. Use for creating LLM-as-Judge scorers, evaluation datasets, quality gates, tracing, and continuous evaluation. Triggers on \"evaluate agent",
+  "category": "testing",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/testing/agent-evaluation-mlflow/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:15:18.058590Z",
+  "dir_name": "agent-evaluation-mlflow-shivamchopra7-claude-skill-dire-8dda2510",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/testing/agent-evaluation-mlflow/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

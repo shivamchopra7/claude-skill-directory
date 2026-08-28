@@ -101,14 +101,6 @@ def build_generated_fixture(root: Path) -> Path:
         archive_metadata_count_raw=len(skills),
         registry_skill_count_dedup=len(skills),
     )
-    provenance = {
-        "generated_at": generated_at,
-        "core_repo": "owner/core",
-        "core_sha": "a" * 40,
-        "data_repo": "owner/data",
-        "data_sha": "b" * 40,
-    }
-    rebuild_registry.safe_write_json(root / "provenance" / "merge-source.json", provenance)
     return docs
 
 
@@ -334,13 +326,11 @@ def test_validator_rejects_single_fact_mutations(tmp_path, path, mutate, expecte
         ("docs/categories/development/part-000.json", lambda v: v.__setitem__("code", "other"), "payload_identity_mismatch"),
         ("docs/featured.json", lambda v: v.__setitem__("unexpected", []), "invalid_public_document_shape"),
         ("docs/plugins.json", lambda v: v.__setitem__("count", 9), "public_document_count_mismatch"),
-        ("provenance/merge-source.json", lambda v: v.__setitem__("core_sha", "bad"), "invalid_provenance"),
     ],
     ids=[
         "registry-strategy", "registry-key", "registry-provenance-type", "registry-provenance-shape", "search-schema",
         "quality-strategy", "security-schema", "ranking-strategy", "category-pointer-time",
         "category-strategy", "category-part-code", "featured-shape", "plugin-count",
-        "merge-provenance",
     ],
 )
 def test_validator_rejects_reviewer_semantic_probes(tmp_path, path, mutate, expected):

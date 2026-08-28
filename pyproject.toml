@@ -3,16 +3,16 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "claude-skill-registry"
+name = "claude-skill-directory"
 version = "1.0.0"
-description = "Comprehensive Claude Code skills registry - curated collection of AI coding assistant skills"
+description = "Claude Skill Directory - a searchable directory of Claude Code skills, with the crawler, scanner, and index pipeline that builds it"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.10"
 authors = [
-    {name = "Claude Skill Registry Contributors"}
+    {name = "Shivam Chopra"}
 ]
-keywords = ["claude", "skills", "registry", "ai", "coding"]
+keywords = ["claude", "skills", "directory", "registry", "ai", "coding"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -43,9 +43,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/majiayu000/claude-skill-registry-core"
-Repository = "https://github.com/majiayu000/claude-skill-registry-core"
-Issues = "https://github.com/majiayu000/claude-skill-registry-core/issues"
+Homepage = "https://shivamchopra7.github.io/claude-skill-directory/"
+Repository = "https://github.com/shivamchopra7/claude-skill-directory"
+Issues = "https://github.com/shivamchopra7/claude-skill-directory/issues"
 
 [tool.setuptools]
 py-modules = []

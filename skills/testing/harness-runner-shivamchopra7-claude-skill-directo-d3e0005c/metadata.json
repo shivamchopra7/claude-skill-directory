@@ -1,0 +1,18 @@
+{
+  "name": "harness-runner",
+  "description": "Run WaveCap-SDR test harness with automated parameter sweeps and validation. Use when regression testing, validating audio quality across configurations, testing SDR hardware, or benchmarking demodula",
+  "category": "testing",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/data/harness-runner/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:15:09.207067Z",
+  "dir_name": "harness-runner-shivamchopra7-claude-skill-directo-d3e0005c",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/data/harness-runner/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

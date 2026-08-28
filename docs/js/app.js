@@ -1,5 +1,5 @@
 /**
- * Claude Skills Registry - Search Application
+ * Claude Skill Directory - Search Application
  * Fast client-side search for Claude Code skills
  * v2.0 - Added Leaderboard, Stats, Favorites, Random Discovery
  */
@@ -245,7 +245,7 @@ function updateRegistryCountDisplay() {
     }
     elements.totalCount.title = titleParts.join(' · ');
 
-    document.title = `Claude Skills Registry - Search ${formattedDeduped} Skills`;
+    document.title = `Claude Skill Directory - Search ${formattedDeduped} Skills`;
     if (elements.metaDescription) {
         elements.metaDescription.setAttribute(
             'content',

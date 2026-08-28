@@ -1,0 +1,18 @@
+{
+  "name": "sitrep-coordinator",
+  "description": "Military-style Situation Report (SITREP) generation for multi-agent coordination. Creates structured status updates with completed/in-progress/blocked sections, authorization codes, handoff protocols,",
+  "category": "development",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/other/sitrep-coordinator/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:15:13.682599Z",
+  "dir_name": "sitrep-coordinator-shivamchopra7-claude-skill-directo",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/other/sitrep-coordinator/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

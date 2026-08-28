@@ -1,0 +1,18 @@
+{
+  "name": "dapr-integration",
+  "description": "Integrate Dapr building blocks for event-driven microservices - Pub/Sub, State Management, Secrets, Service Invocation, and Jobs API. Use when implementing event-driven architecture for Phase 5. (proj",
+  "category": "development",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/development/dapr-integration/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:15:12.077813Z",
+  "dir_name": "dapr-integration-shivamchopra7-claude-skill-directo",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/development/dapr-integration/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

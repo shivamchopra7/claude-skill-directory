@@ -522,7 +522,14 @@ def test_discover_from_registry_aggregates_parse_error(monkeypatch, tmp_path):
 def test_discover_from_registry_records_success_and_filters_known(monkeypatch, tmp_path):
     path = tmp_path / "registry.json"
     skills = []
-    for repo in ["known/repo", "checked/repo", "owner/claude-skill-registry-copy", "new/repo"]:
+    for repo in [
+        "known/repo",
+        "checked/repo",
+        "owner/claude-skill-registry-copy",
+        "shivamchopra7/claude-skill-directory",
+        "owner/claude-skill-directory-mirror",
+        "new/repo",
+    ]:
         skills.extend({"repo": repo} for _ in range(10))
     path.write_text(json.dumps({"skills": skills}), encoding="utf-8")
     monkeypatch.setattr(discovery, "inspect_repo_structure", lambda repo: _structure(has_package_json=False))
@@ -539,6 +546,15 @@ def test_discover_from_registry_records_success_and_filters_known(monkeypatch, t
     assert outcomes[-1].unit == "registry_repo:new/repo"
     assert outcomes[-1].status == "success"
     assert outcomes[-1].candidate_count == 1
+
+
+def test_is_self_referential_repo_matches_old_and_new_registry_names():
+    assert discovery.is_self_referential_repo("shivamchopra7/claude-skill-directory")
+    assert discovery.is_self_referential_repo("majiayu000/claude-skill-registry")
+    assert discovery.is_self_referential_repo("majiayu000/claude-skill-registry-data")
+    assert discovery.is_self_referential_repo("Owner/Claude-Skill-Directory")
+    assert not discovery.is_self_referential_repo("shivammathur/setup-php")
+    assert not discovery.is_self_referential_repo("new/repo")
 
 
 def test_discover_from_registry_records_success_without_candidate(monkeypatch, tmp_path):

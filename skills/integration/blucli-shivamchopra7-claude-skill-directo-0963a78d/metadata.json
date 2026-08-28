@@ -1,0 +1,16 @@
+{
+  "name": "blucli",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/data/blucli/SKILL.md",
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-29T07:36:13.045884Z",
+  "dir_name": "blucli-shivamchopra7-claude-skill-directo-0963a78d",
+  "category": "integration",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/data/blucli/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

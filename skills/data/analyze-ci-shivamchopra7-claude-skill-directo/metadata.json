@@ -1,0 +1,16 @@
+{
+  "name": "analyze-ci",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/analyze-ci/SKILL.md",
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-02-04T02:03:58.450294Z",
+  "dir_name": "analyze-ci-shivamchopra7-claude-skill-directo",
+  "category": "data",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/analyze-ci/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

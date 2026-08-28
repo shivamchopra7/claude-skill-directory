@@ -1,0 +1,18 @@
+{
+  "name": "awq",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/awq/SKILL.md",
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-22T03:56:35.305467Z",
+  "dir_name": "awq-shivamchopra7-claude-skill-directo-537d71c8",
+  "category": "ai-ml",
+  "github_path": "skills/devops/awq-quantization",
+  "github_branch": "main",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/devops/awq-quantization/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "flow",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/flow/SKILL.md",
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-02-02T04:36:10.916934Z",
+  "dir_name": "flow-shivamchopra7-claude-skill-directo",
+  "category": "development",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/flow/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

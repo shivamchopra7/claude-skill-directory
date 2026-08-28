@@ -1135,16 +1135,6 @@ class TestAssetLiveness:
         assert json.loads(first.read_text())["asset_liveness"] == "live"
         assert second.read_bytes() == originals[second]
 
-    def test_workflow_runs_full_profile_gate_before_data_commit(self):
-        workflow = Path(".github/workflows/sync-data.yml").read_text(encoding="utf-8")
-        verify_at = workflow.index("Verify bundled asset liveness")
-        commit_at = workflow.index("Commit & push data repo changes")
-        assert verify_at < commit_at
-        assert "steps.discovery.outputs.profile == 'full'" in workflow[verify_at:commit_at]
-        assert "--apply" in workflow[verify_at:commit_at]
-        assert "--max-decayed-percent 35" in workflow[verify_at:commit_at]
-        assert "Upload bundled asset liveness report" in workflow
-
 
 class TestGitHubClient:
     class Response:

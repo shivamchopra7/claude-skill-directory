@@ -1,0 +1,18 @@
+{
+  "name": "agent-native-reviewer",
+  "description": "Use this agent when reviewing code changes to ensure features are agent-native - any action a user can take, an agent can also take, and anything a user can see, an agent can see. Triggers on requests",
+  "category": "development",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/other/agent-native-reviewer/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:15:17.090606Z",
+  "dir_name": "agent-native-reviewer-shivamchopra7-claude-skill-directo",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/other/agent-native-reviewer/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

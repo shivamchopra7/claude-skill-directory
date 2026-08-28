@@ -250,7 +250,7 @@ async def download_skills(
     preferred_branch_by_repo = {}
     manifest_state = {"dirty": False}
 
-    headers = {"User-Agent": "Claude-Skills-Registry/3.0"}
+    headers = {"User-Agent": "Claude-Skill-Directory/3.0"}
     if github_token:
         headers["Authorization"] = f"token {github_token}"
 

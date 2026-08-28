@@ -1,0 +1,18 @@
+{
+  "name": "insurance-expert",
+  "description": "Expert-level insurance systems, underwriting, claims processing, actuarial analysis, risk assessment, and insurtech solutions",
+  "category": "domains",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/data/insurance-expert/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:16:08.544592Z",
+  "dir_name": "insurance-expert-shivamchopra7-claude-skill-directo",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/data/insurance-expert/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "creating-bookmarklets",
+  "description": "Creates browser-executable JavaScript bookmarklets with strict formatting requirements. Use when users mention bookmarklets, browser utilities, dragging code to bookmarks bar, or need JavaScript that ",
+  "category": "development",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/data/creating-bookmarklets/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:15:41.448838Z",
+  "dir_name": "creating-bookmarklets-shivamchopra7-claude-skill-directo",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/data/creating-bookmarklets/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

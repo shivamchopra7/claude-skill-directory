@@ -9003,176 +9003,176 @@
       "relative_path": "SKILL.md",
       "updated_at": "2026-05-26T04:16:13.391158Z"
     },
-    "majiayu000/claude-skill-registry:skills/testing/pytest-runner/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/testing/pytest-runner/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/testing/pytest-runner/SKILL.md",
       "updated_at": "2026-05-27T04:33:53.893333Z"
     },
-    "majiayu000/claude-skill-registry:skills/testing/test-orchestrator/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/testing/test-orchestrator/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/testing/test-orchestrator/SKILL.md",
       "updated_at": "2026-05-27T04:33:53.902449Z"
     },
-    "majiayu000/claude-skill-registry:skills/design/audit-style/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/design/audit-style/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/design/audit-style/SKILL.md",
       "updated_at": "2026-05-27T04:33:53.915823Z"
     },
-    "majiayu000/claude-skill-registry:skills/design/chakra-ui/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/design/chakra-ui/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/design/chakra-ui/SKILL.md",
       "updated_at": "2026-05-27T04:33:53.924900Z"
     },
-    "majiayu000/claude-skill-registry:skills/devops/devops-practices/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/devops/devops-practices/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/devops/devops-practices/SKILL.md",
       "updated_at": "2026-05-27T04:33:53.935015Z"
     },
-    "majiayu000/claude-skill-registry:skills/testing/agent-qa-expert/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/testing/agent-qa-expert/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/testing/agent-qa-expert/SKILL.md",
       "updated_at": "2026-05-27T04:33:53.947392Z"
     },
-    "majiayu000/claude-skill-registry:skills/design/anthropic-web-artifacts-builder/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/design/anthropic-web-artifacts-builder/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/design/anthropic-web-artifacts-builder/SKILL.md",
       "updated_at": "2026-05-27T04:33:53.951744Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/workers-development/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/workers-development/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/workers-development/SKILL.md",
       "updated_at": "2026-05-27T04:33:53.960396Z"
     },
-    "majiayu000/claude-skill-registry:skills/devops/deploying-monitoring-stacks/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/devops/deploying-monitoring-stacks/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/devops/deploying-monitoring-stacks/SKILL.md",
       "updated_at": "2026-05-27T04:33:53.965026Z"
     },
-    "majiayu000/claude-skill-registry:skills/security/security-auth/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/security/security-auth/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/security/security-auth/SKILL.md",
       "updated_at": "2026-05-27T04:33:53.975493Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/nvim-plugin-add/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/nvim-plugin-add/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/nvim-plugin-add/SKILL.md",
       "updated_at": "2026-05-27T04:33:53.980410Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/dialyzer-configuration/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/dialyzer-configuration/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/dialyzer-configuration/SKILL.md",
       "updated_at": "2026-05-27T04:33:53.998159Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/mcp-tool-generator/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/mcp-tool-generator/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/mcp-tool-generator/SKILL.md",
       "updated_at": "2026-05-27T04:33:54.011152Z"
     },
-    "majiayu000/claude-skill-registry:skills/security/soc2-compliance-checker/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/security/soc2-compliance-checker/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/security/soc2-compliance-checker/SKILL.md",
       "updated_at": "2026-05-27T04:33:54.014495Z"
     },
-    "majiayu000/claude-skill-registry:skills/testing/selenium-testing/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/testing/selenium-testing/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/testing/selenium-testing/SKILL.md",
       "updated_at": "2026-05-27T04:33:54.018136Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/mcp-builder/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/mcp-builder/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/mcp-builder/SKILL.md",
       "updated_at": "2026-05-27T04:33:55.747418Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/programming-ruby/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/programming-ruby/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/programming-ruby/SKILL.md",
       "updated_at": "2026-05-27T04:33:55.763352Z"
     },
-    "majiayu000/claude-skill-registry:skills/testing/nestjs-testing-skill/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/testing/nestjs-testing-skill/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/testing/nestjs-testing-skill/SKILL.md",
       "updated_at": "2026-05-27T04:33:55.820703Z"
     },
-    "majiayu000/claude-skill-registry:skills/testing/harness-runner/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/testing/harness-runner/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/testing/harness-runner/SKILL.md",
       "updated_at": "2026-05-27T04:33:55.830242Z"
     },
-    "majiayu000/claude-skill-registry:skills/devops/platform-health/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/devops/platform-health/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/devops/platform-health/SKILL.md",
       "updated_at": "2026-05-27T04:33:55.839461Z"
     },
-    "majiayu000/claude-skill-registry:skills/security/authentication-management/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/security/authentication-management/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/security/authentication-management/SKILL.md",
       "updated_at": "2026-05-27T04:33:55.847563Z"
     },
-    "majiayu000/claude-skill-registry:skills/documents/process-resume-skill/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/documents/process-resume-skill/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/documents/process-resume-skill/SKILL.md",
       "updated_at": "2026-05-27T04:33:55.882570Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/bellog-structure/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/bellog-structure/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/bellog-structure/SKILL.md",
       "updated_at": "2026-05-27T04:33:55.891204Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/agent-sdk/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/agent-sdk/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/agent-sdk/SKILL.md",
       "updated_at": "2026-05-27T04:33:55.911167Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/builtin-developer/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/builtin-developer/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/builtin-developer/SKILL.md",
       "updated_at": "2026-05-27T04:33:55.972852Z"
     },
-    "majiayu000/claude-skill-registry:skills/documents/moai-docs-unified/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/documents/moai-docs-unified/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/documents/moai-docs-unified/SKILL.md",
       "updated_at": "2026-05-27T04:33:56.066722Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/agent-electron-pro/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/agent-electron-pro/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/agent-electron-pro/SKILL.md",
       "updated_at": "2026-05-27T04:33:56.071466Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/agent-typescript-pro/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/agent-typescript-pro/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/agent-typescript-pro/SKILL.md",
       "updated_at": "2026-05-27T04:33:56.076669Z"
     },
-    "majiayu000/claude-skill-registry:skills/devops/release-procedures/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/devops/release-procedures/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/devops/release-procedures/SKILL.md",
       "updated_at": "2026-05-27T04:33:56.083568Z"
@@ -9357,80 +9357,80 @@
       "relative_path": "skills/naming-suite/domainforge/SKILL.md",
       "updated_at": "2026-06-01T04:44:34.756976Z"
     },
-    "majiayu000/claude-skill-registry:skills/security/global-security/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/security/global-security/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/security/global-security/SKILL.md",
       "updated_at": "2026-06-03T04:47:29.572842Z"
     },
-    "majiayu000/claude-skill-registry:skills/documents/code-documentation-analyzer/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/documents/code-documentation-analyzer/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/documents/code-documentation-analyzer/SKILL.md",
       "updated_at": "2026-06-03T04:47:29.588271Z"
     },
-    "majiayu000/claude-skill-registry:skills/devops/github/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/devops/github/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/devops/github/SKILL.md",
       "updated_at": "2026-06-03T04:47:29.596845Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/react-observability/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/react-observability/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/react-observability/SKILL.md",
       "updated_at": "2026-06-03T04:47:29.614476Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/repo-structure/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/repo-structure/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/repo-structure/SKILL.md",
       "updated_at": "2026-06-03T04:47:29.631160Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/odoo-debugger/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/odoo-debugger/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/odoo-debugger/SKILL.md",
       "updated_at": "2026-06-03T04:47:29.638549Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/code-discovery/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/code-discovery/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/code-discovery/SKILL.md",
       "updated_at": "2026-06-03T04:47:29.641928Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/manage-client-state/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/manage-client-state/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/manage-client-state/SKILL.md",
       "updated_at": "2026-06-03T04:47:29.646112Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/command-sub-agent/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/command-sub-agent/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/command-sub-agent/SKILL.md",
       "updated_at": "2026-06-03T04:47:29.665373Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/building-project/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/building-project/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/building-project/SKILL.md",
       "updated_at": "2026-06-03T04:47:31.416493Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/debug-cuda-crash/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/debug-cuda-crash/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/debug-cuda-crash/SKILL.md",
       "updated_at": "2026-06-03T04:47:31.426325Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/scrcpy-option-ui-builder/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/scrcpy-option-ui-builder/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/scrcpy-option-ui-builder/SKILL.md",
       "updated_at": "2026-06-03T04:47:31.436859Z"
     },
-    "majiayu000/claude-skill-registry:skills/data/convex-agents-usage-tracking/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/data/convex-agents-usage-tracking/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/data/convex-agents-usage-tracking/SKILL.md",
       "updated_at": "2026-06-03T04:47:31.578525Z"
@@ -9447,8 +9447,8 @@
       "relative_path": "skills/display-dev/SKILL.md",
       "updated_at": "2026-06-17T04:47:27.671078Z"
     },
-    "majiayu000/claude-skill-registry:skills/development/team-topologies/SKILL.md": {
-      "repo": "majiayu000/claude-skill-registry",
+    "shivamchopra7/claude-skill-directory:skills/development/team-topologies/SKILL.md": {
+      "repo": "shivamchopra7/claude-skill-directory",
       "branch": "main",
       "relative_path": "skills/development/team-topologies/SKILL.md",
       "updated_at": "2026-06-18T04:38:46.376833Z"

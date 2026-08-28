@@ -1,27 +1,32 @@
 ## Summary
 
-<!-- What generated mirror behavior or main-owned configuration changed? -->
+<!-- What changed and why? -->
 
-## Contribution type
+## Change type
 
-- [ ] This change is intentionally main-owned.
-- [ ] This is a correction to an existing generated `skills/**` entry submitted through the public main-repository intake.
-- [ ] Core pipeline/source/index/search behavior is unchanged.
+- [ ] Pipeline, script, or workflow change (`scripts/**`, `crawler/**`, `.github/**`)
+- [ ] Archive correction under `skills/**`
+- [ ] Site or documentation change (`docs/**`, `README.md`)
+- [ ] Source list, schema, or taxonomy change (`sources/**`, `schema/**`, `taxonomy/**`)
 
-Generated archive corrections are welcome here, but they are not merged into
-main directly. A maintainer will verify and port an accepted correction to
-[`claude-skill-registry-data`](https://github.com/majiayu000/claude-skill-registry-data),
-preserve contributor attribution with `Co-authored-by`, and republish main from
-pinned core and data commits. You do not need to recreate the same pull request
-in another repository.
+This is a single self-contained repository: discovery, the skill archive, the
+generated registry, and the published site all live here. There is no separate
+pipeline or archive repository to port a change to.
 
-Other generated outputs such as `registry*.json`, `docs/**`, and
-`registry-shards/**` should not be patched by hand.
+## Generated files
+
+Do not hand-edit generated outputs. `registry.json`, `registry_summary.json`,
+`registry-manifest.json`, `registry-shards/**`, and `docs/search-index.json`,
+`docs/stats.json`, `docs/categories/**` are rebuilt by `scripts/regenerate.sh`
+and by the `Rebuild Generated Artifacts` workflow. Change the generator, then
+regenerate.
+
+`THIRD_PARTY_NOTICES.md` is produced by CI and must not be edited by hand.
 
 ## Archive correction evidence
 
-<!-- For a skills/** correction, link the authoritative source and list the affected paths. -->
+<!-- For a skills/** correction, link the authoritative upstream source and list the affected paths. -->
 
 ## Verification
 
-<!-- List the checks run for this main-owned change. -->
+<!-- List the checks you ran: scripts/regenerate.sh, pytest, or the specific validators. -->

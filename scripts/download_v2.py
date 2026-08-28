@@ -447,7 +447,7 @@ async def main():
     }
 
     # Headers
-    headers = {"User-Agent": "Claude-Skills-Registry/2.0"}
+    headers = {"User-Agent": "Claude-Skill-Directory/2.0"}
     if GITHUB_TOKEN:
         headers["Authorization"] = f"token {GITHUB_TOKEN}"
         logger.info("Using GitHub token")

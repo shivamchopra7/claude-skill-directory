@@ -1,0 +1,18 @@
+{
+  "name": "agent-onboarding",
+  "description": "Comprehensive framework for effective gptme agent onboarding that builds user trust, communicates capabilities clearly, and establishes productive working relationships from the first interaction.",
+  "category": "development",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/data/agent-onboarding/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:15:51.187328Z",
+  "dir_name": "agent-onboarding-shivamchopra7-claude-skill-directo",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/data/agent-onboarding/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

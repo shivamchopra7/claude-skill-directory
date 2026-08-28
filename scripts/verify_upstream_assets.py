@@ -58,7 +58,7 @@ class GitHubClient:
             f"https://api.github.com{path}",
             headers={
                 "Accept": "application/vnd.github+json",
-                "User-Agent": "claude-skill-registry-asset-verifier",
+                "User-Agent": "claude-skill-directory-asset-verifier",
                 "X-GitHub-Api-Version": "2022-11-28",
                 **({"Authorization": f"Bearer {self.token}"} if self.token else {}),
             },

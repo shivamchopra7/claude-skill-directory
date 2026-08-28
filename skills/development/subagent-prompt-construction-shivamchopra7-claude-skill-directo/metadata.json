@@ -1,0 +1,18 @@
+{
+  "name": "subagent-prompt-construction",
+  "description": "Systematic methodology for constructing compact (<150 lines), expressive, Claude Code-integrated subagent prompts using lambda contracts and symbolic logic. Use when creating new specialized subagents",
+  "category": "development",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/data/subagent-prompt-construction/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:15:13.321631Z",
+  "dir_name": "subagent-prompt-construction-shivamchopra7-claude-skill-directo",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/data/subagent-prompt-construction/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

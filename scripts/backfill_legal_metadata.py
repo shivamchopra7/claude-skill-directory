@@ -82,7 +82,7 @@ def github_request(url: str, token: str, timeout: int) -> dict[str, Any]:
     headers = {
         "Accept": "application/vnd.github+json",
         "X-GitHub-Api-Version": "2022-11-28",
-        "User-Agent": "claude-skill-registry-license-backfill",
+        "User-Agent": "claude-skill-directory-license-backfill",
     }
     if token:
         headers["Authorization"] = f"Bearer {token}"

@@ -725,7 +725,7 @@ def build_search_index(
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Build search index for skill registry")
+    parser = argparse.ArgumentParser(description="Build search index for the Claude Skill Directory")
     parser.add_argument("--skills-dir", "-s", default="skills", help="Skills directory")
     parser.add_argument(
         "--registry", "-r", default="registry.json", help="Registry.json (fallback)"

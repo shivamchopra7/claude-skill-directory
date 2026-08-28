@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Shared utilities for skill registry scripts.
+Shared utilities for Claude Skill Directory scripts.
 """
 
 import hashlib

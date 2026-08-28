@@ -1,0 +1,18 @@
+{
+  "name": "pi-share",
+  "description": "Load and parse session transcripts from shittycodingagent.ai/buildwithpi.ai/buildwithpi.com (pi-share) URLs. Fetches gists, decodes embedded session data, and extracts conversation history.",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/other/pi-share",
+  "category": "integration",
+  "tags": [],
+  "stars": 0,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "dir_name": "pi-share-shivamchopra7-claude-skill-directo-2",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/other/pi-share/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

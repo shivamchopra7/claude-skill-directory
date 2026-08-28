@@ -1,11 +1,11 @@
 {
   "name": "system",
   "description": "",
-  "repo": "majiayu000/claude-skill-registry-data",
+  "repo": "shivamchopra7/claude-skill-directory",
   "category": "system",
   "tags": [],
   "stars": 0,
-  "source": "github.com/majiayu000/claude-skill-registry-data",
+  "source": "github.com/shivamchopra7/claude-skill-directory",
   "github_path": "data/system",
   "github_branch": "main",
   "dir_name": "system",

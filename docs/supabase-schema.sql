@@ -1,6 +1,10 @@
 -- ═══════════════════════════════════════════════════════════
--- Claude Skills Registry - Supabase Schema
--- 社区版：点赞、评分、评论、浏览量
+-- Claude Skill Directory - Supabase Schema (STALE DUPLICATE - DO NOT APPLY)
+-- Superseded by supabase/schema.sql and supabase/migrations/*.sql.
+-- Kept only for reference: this older design uses skill_ratings / skill_views,
+-- has no user_favorites table, exposes wide-open "anyone can insert/update"
+-- RLS policies, and its function signatures no longer match the web client.
+-- 旧版设计：点赞、评分、评论、浏览量
 -- ═══════════════════════════════════════════════════════════
 
 -- 1. Skills 统计表（核心）

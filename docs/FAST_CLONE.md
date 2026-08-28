@@ -1,9 +1,10 @@
 # Fast clone / update (repo has lots of files)
 
-This project has two very different clone profiles:
+Claude Skill Directory is one self-contained repository, but it mixes two very
+different kinds of content:
 
-- `claude-skill-registry-core`: pipeline + docs + indexes, relatively light
-- `claude-skill-registry-data`: archived skill tree, very heavy
+- pipeline + docs + generated indexes (`scripts`, `docs`, `sources`, `schema`) — relatively light
+- the archived skill tree (`skills/`) — very heavy
 
 A normal `git clone` / `git pull` can feel slow because Git needs to update and scan a very large working tree.
 
@@ -12,28 +13,33 @@ If you only need the registry + tooling (scripts/docs) and not the full skill ar
 ## New clone (recommended)
 
 ```bash
-git clone --filter=blob:none --sparse https://github.com/majiayu000/claude-skill-registry-core.git
-cd claude-skill-registry-core
+git clone --filter=blob:none --sparse https://github.com/shivamchopra7/claude-skill-directory.git
+cd claude-skill-directory
 git sparse-checkout set --cone docs scripts sources schema
 ```
 
 If you only need counts, prefer `registry_summary.json` instead of opening the full `registry.json`.
 
-## Data repo clone (recommended)
+## Adding the skill archive
 
-If you need archived skills locally, do **not** full-clone the data repo first. Start shallow + blobless + sparse:
+If you need archived skills locally, add only the categories you actually use
+rather than the whole `skills/` tree:
 
 ```bash
-git clone --filter=blob:none --depth 1 --sparse https://github.com/majiayu000/claude-skill-registry-data.git
-cd claude-skill-registry-data
-git sparse-checkout init --cone
-git sparse-checkout set development documents
+git sparse-checkout add skills/development skills/documents
 ```
 
 Need more categories later?
 
 ```bash
-git sparse-checkout add data design testing
+git sparse-checkout add skills/data skills/design skills/testing
+```
+
+Starting from scratch and expecting to pull a lot of archive history? Start
+shallow as well:
+
+```bash
+git clone --filter=blob:none --depth 1 --sparse https://github.com/shivamchopra7/claude-skill-directory.git
 ```
 
 ## Existing clone: switch to sparse checkout
@@ -51,7 +57,7 @@ If you truly need everything:
 git sparse-checkout disable
 ```
 
-For the data repo, this is the expensive step. Avoid it unless you really need the entire archive on disk.
+This pulls the entire skill archive onto disk. Avoid it unless you really need it.
 
 ## Optional: Git performance tuning
 

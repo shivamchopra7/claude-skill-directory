@@ -1,6 +1,8 @@
 -- ═══════════════════════════════════════════════════════════
--- Claude Skills Registry - Supabase Schema
--- 社区版：点赞、评论、收藏（不需要强制登录）
+-- Claude Skill Directory - Supabase Schema
+-- Community features: likes, comments, favorites (no forced sign-in)
+-- CANONICAL. This file is the consolidated view of supabase/migrations/*.sql.
+-- Apply the migrations, in order, to a Supabase project you own.
 -- ═══════════════════════════════════════════════════════════
 
 -- 1. 技能统计表（点赞数、评论数）

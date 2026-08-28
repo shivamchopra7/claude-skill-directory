@@ -1,0 +1,18 @@
+{
+  "name": "mobile-app-testing",
+  "description": "Comprehensive mobile app testing strategies for iOS and Android. Covers unit tests, UI tests, integration tests, performance testing, and test automation with Detox, Appium, and XCTest.",
+  "category": "testing",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/testing/mobile-app-testing/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:15:36.489633Z",
+  "dir_name": "mobile-app-testing-shivamchopra7-claude-skill-directo-ae545a24",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/testing/mobile-app-testing/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

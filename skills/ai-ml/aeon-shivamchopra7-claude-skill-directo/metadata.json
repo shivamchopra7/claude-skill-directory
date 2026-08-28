@@ -1,0 +1,16 @@
+{
+  "name": "aeon",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/data/aeon/SKILL.md",
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-29T07:36:11.794065Z",
+  "dir_name": "aeon-shivamchopra7-claude-skill-directo",
+  "category": "ai-ml",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/data/aeon/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

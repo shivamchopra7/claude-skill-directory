@@ -1,10 +1,10 @@
-# Skill Registry 收录指南
+# Claude Skill Directory 收录指南
 
-本文档说明社区提交如何被审核和收录到 Claude Skills Registry。
+本文档说明社区提交如何被审核和收录到 Claude Skill Directory。
 
 ## 实体类型
 
-Registry 有两种实体：
+本目录有两种实体：
 
 | 类型 | 说明 | 收录方式 |
 |------|------|----------|
@@ -15,7 +15,7 @@ Registry 有两种实体：
 
 ### 自动爬取（主要途径）
 
-Registry 通过 GitHub Code Search 和预设仓库列表自动发现 SKILL.md 文件。
+本项目通过 GitHub Code Search 和预设仓库列表自动发现 SKILL.md 文件。
 
 **被收录的条件：**
 1. 仓库中存在标准的 `SKILL.md` 文件
@@ -34,7 +34,7 @@ Registry 通过 GitHub Code Search 和预设仓库列表自动发现 SKILL.md �
 
 ### 手动提交
 
-通过 [GitHub Issues](https://github.com/majiayu000/claude-skill-registry/issues) 提交。
+通过 [GitHub Issues](https://github.com/shivamchopra7/claude-skill-directory/issues) 提交。
 
 如果提交的是单个 skill 且仓库中有标准 SKILL.md：
 1. 将仓库 URL 加入 `REPOS_TO_CLONE`
@@ -53,7 +53,7 @@ description: 清楚说明这个 Skill 的用途。
 ```
 
 Skill 及其随附文件不得包含密钥、令牌或私有端点。在已安装本仓库依赖的
-core checkout 中运行：
+本仓库检出中运行：
 
 ```bash
 # PR 修改 sources/community.json 时，验证来源条目

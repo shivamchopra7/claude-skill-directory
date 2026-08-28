@@ -24,7 +24,7 @@ class SkillsMPSync:
 
     def __init__(self):
         self.session = requests.Session()
-        self.session.headers['User-Agent'] = 'Claude-Skills-Registry/1.0'
+        self.session.headers['User-Agent'] = 'Claude-Skill-Directory/1.0'
         # Enable SSL verification for security
         self.session.verify = True
         self.skills = []

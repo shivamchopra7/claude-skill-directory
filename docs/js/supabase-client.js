@@ -1,60 +1,71 @@
 /**
- * Supabase Client for Claude Skills Registry
- * 社区功能：点赞、评论、收藏同步
- * 使用 Supabase Anonymous Auth 实现无感匿名用户
+ * Community backend client for Claude Skill Directory
+ * Optional social features: likes, comments, and cloud-synced favorites.
+ *
+ * ─────────────────────────────────────────────────────────────
+ * DISABLED BY DEFAULT — READ BEFORE ENABLING
+ * ─────────────────────────────────────────────────────────────
+ * While COMMUNITY_FEATURES_ENABLED is false, this file never contacts any
+ * backend: no network calls, no anonymous accounts, no visitor data leaves the
+ * browser. Favorites still work, stored locally in localStorage only.
+ *
+ * To turn community features on:
+ *   1. Create your own Supabase project (https://supabase.com).
+ *   2. Apply the migrations in `supabase/migrations/*.sql` (in order) to it.
+ *      `supabase/schema.sql` is the consolidated view of that same state.
+ *   3. Enable Anonymous sign-ins in Supabase Auth settings.
+ *   4. Paste this project's URL and publishable (anon) key below.
+ *   5. Flip COMMUNITY_FEATURES_ENABLED to true.
+ *
+ * Never point these at a Supabase project you do not own: every visitor's
+ * likes, comments, and favorites are written to whichever project is
+ * configured here.
  */
 
-const SUPABASE_URL = 'https://gyrtkwwnghfwesvdiwap.supabase.co';
-const SUPABASE_ANON_KEY = 'sb_publishable_gAuZcQ3joPqZAnmjdMBckg_WC4DL4Sl';
+const COMMUNITY_FEATURES_ENABLED = false;
 
-// 初始化 Supabase 客户端
-const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+// Fill these in with your OWN Supabase project before enabling the flag above.
+const SUPABASE_URL = '';
+const SUPABASE_ANON_KEY = '';
 
-// 用户状态
+// Initialize the Supabase client only when the feature is enabled AND fully
+// configured AND the SDK actually loaded. Any missing piece degrades to
+// local-only behavior instead of throwing.
+const supabaseClient = (() => {
+    if (!COMMUNITY_FEATURES_ENABLED) return null;
+    if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
+        console.warn(
+            'Community features are enabled but SUPABASE_URL / SUPABASE_ANON_KEY ' +
+            'are empty in js/supabase-client.js. Running in local-only mode.'
+        );
+        return null;
+    }
+    if (typeof supabase === 'undefined' || typeof supabase.createClient !== 'function') {
+        console.warn('Supabase SDK not loaded. Running in local-only mode.');
+        return null;
+    }
+    try {
+        return supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+    } catch (error) {
+        console.warn('Supabase client could not be created. Running in local-only mode.');
+        return null;
+    }
+})();
+
+// Single source of truth for "may we talk to a backend at all?".
+const communityEnabled = supabaseClient !== null;
+
+// User state
 let currentUser = null;
 let isInitialized = false;
 
-// 获取当前用户ID（兼容匿名和登录用户）
+// Current user id (works for anonymous and signed-in users)
 function getUserId() {
     return currentUser?.id || localStorage.getItem('deviceId') || 'anonymous';
 }
 
-// 初始化匿名认证
-async function initAuth() {
-    if (isInitialized) return currentUser;
-
-    try {
-        // 检查是否已有会话
-        const { data: { session } } = await supabaseClient.auth.getSession();
-
-        if (session?.user) {
-            currentUser = session.user;
-            console.log('Existing session found:', currentUser.id);
-        } else {
-            // 自动创建匿名用户
-            const { data, error } = await supabaseClient.auth.signInAnonymously();
-
-            if (error) {
-                console.warn('Anonymous auth failed, falling back to device ID:', error.message);
-                // 降级到 device ID
-                currentUser = { id: getDeviceIdFallback() };
-            } else {
-                currentUser = data.user;
-                console.log('Anonymous user created:', currentUser.id);
-            }
-        }
-
-        isInitialized = true;
-        return currentUser;
-    } catch (error) {
-        console.error('Auth init error:', error);
-        currentUser = { id: getDeviceIdFallback() };
-        isInitialized = true;
-        return currentUser;
-    }
-}
-
-// 降级方案：设备ID
+// Local-only device id. Created lazily so a visitor of the local-only site is
+// never assigned an identifier they did not need.
 function getDeviceIdFallback() {
     let deviceId = localStorage.getItem('deviceId');
     if (!deviceId) {
@@ -64,16 +75,60 @@ function getDeviceIdFallback() {
     return deviceId;
 }
 
-// 监听认证状态变化
-supabaseClient.auth.onAuthStateChange((event, session) => {
-    if (session?.user) {
-        currentUser = session.user;
-        console.log('Auth state changed:', event, currentUser.id);
-    }
-});
+// Initialize anonymous auth
+async function initAuth() {
+    if (isInitialized) return currentUser;
 
-// 绑定 GitHub 账户（升级匿名用户）
+    if (!communityEnabled) {
+        // Local-only mode: no account is created and nothing is sent anywhere.
+        currentUser = null;
+        isInitialized = true;
+        return currentUser;
+    }
+
+    try {
+        // Reuse an existing session when present
+        const { data: { session } } = await supabaseClient.auth.getSession();
+
+        if (session?.user) {
+            currentUser = session.user;
+        } else {
+            // Create an anonymous user
+            const { data, error } = await supabaseClient.auth.signInAnonymously();
+
+            if (error) {
+                console.warn('Anonymous auth failed, falling back to device ID:', error.message);
+                currentUser = { id: getDeviceIdFallback() };
+            } else {
+                currentUser = data.user;
+            }
+        }
+
+        isInitialized = true;
+        return currentUser;
+    } catch (error) {
+        console.warn('Auth init failed, falling back to device ID.');
+        currentUser = { id: getDeviceIdFallback() };
+        isInitialized = true;
+        return currentUser;
+    }
+}
+
+// Track auth state changes (only meaningful when a client exists)
+if (communityEnabled) {
+    supabaseClient.auth.onAuthStateChange((event, session) => {
+        if (session?.user) {
+            currentUser = session.user;
+        }
+    });
+}
+
+// Link a GitHub account (upgrade an anonymous user)
 async function linkGitHub() {
+    if (!communityEnabled) {
+        return { success: false, error: 'Community features are disabled.' };
+    }
+
     const { data, error } = await supabaseClient.auth.linkIdentity({
         provider: 'github',
         options: {
@@ -82,49 +137,49 @@ async function linkGitHub() {
     });
 
     if (error) {
-        console.error('Link GitHub error:', error);
         return { success: false, error: error.message };
     }
 
     return { success: true, data };
 }
 
-// 登出
+// Sign out
 async function signOut() {
+    if (!communityEnabled) return { success: false };
+
     const { error } = await supabaseClient.auth.signOut();
     if (!error) {
         currentUser = null;
-        // 重新创建匿名用户
+        isInitialized = false;
         await initAuth();
     }
     return { success: !error };
 }
 
-// 检查是否是匿名用户
+// Is the current user anonymous?
 function isAnonymous() {
     return currentUser?.is_anonymous === true;
 }
 
-// 获取用户信息
+// Current user object
 function getUser() {
     return currentUser;
 }
 
-// 兼容旧代码的 DEVICE_ID
-const DEVICE_ID = getDeviceIdFallback();
-
 // ═══════════════════════════════════════════════════════════
-// 点赞功能
+// Likes
 // ═══════════════════════════════════════════════════════════
 
 /**
- * 切换点赞状态
- * @param {string} skillInstall - 技能安装路径
+ * Toggle the like state for a skill.
+ * @param {string} skillInstall - skill install path
  * @returns {Promise<{liked: boolean, count: number}>}
  */
 async function toggleLike(skillInstall) {
+    if (!communityEnabled) return toggleLikeLocal(skillInstall);
+
     try {
-        await initAuth(); // 确保已初始化
+        await initAuth();
 
         const { data, error } = await supabaseClient
             .rpc('toggle_like', {
@@ -134,49 +189,55 @@ async function toggleLike(skillInstall) {
         if (error) throw error;
         return data;
     } catch (error) {
-        console.error('Error toggling like:', error);
-        // 降级到本地存储
+        console.warn('Like request failed, falling back to local storage.');
         return toggleLikeLocal(skillInstall);
     }
 }
 
-// 本地点赞降级方案
+// Local like fallback
 function toggleLikeLocal(skillInstall) {
     const likes = JSON.parse(localStorage.getItem('localLikes') || '{}');
-    const isLiked = !likes[skillInstall];
+    const isLikedNow = !likes[skillInstall];
 
-    if (isLiked) {
+    if (isLikedNow) {
         likes[skillInstall] = true;
     } else {
         delete likes[skillInstall];
     }
 
     localStorage.setItem('localLikes', JSON.stringify(likes));
-    return { liked: isLiked, count: 0 };
+    return { liked: isLikedNow, count: 0 };
+}
+
+function isLikedLocal(skillInstall) {
+    const likes = JSON.parse(localStorage.getItem('localLikes') || '{}');
+    return !!likes[skillInstall];
 }
 
 /**
- * 检查是否已点赞
+ * Has this skill been liked?
  * @param {string} skillInstall
  * @returns {Promise<boolean>}
  */
 async function isLiked(skillInstall) {
+    if (!communityEnabled) return isLikedLocal(skillInstall);
+
     try {
         const stats = await getSkillStats(skillInstall);
         return !!stats.liked;
     } catch (error) {
-        // 降级检查本地
-        const likes = JSON.parse(localStorage.getItem('localLikes') || '{}');
-        return !!likes[skillInstall];
+        return isLikedLocal(skillInstall);
     }
 }
 
 /**
- * 获取点赞数
+ * Like count for a skill.
  * @param {string} skillInstall
  * @returns {Promise<number>}
  */
 async function getLikesCount(skillInstall) {
+    if (!communityEnabled) return 0;
+
     try {
         const { data, error } = await supabaseClient
             .from('skill_stats')
@@ -192,18 +253,22 @@ async function getLikesCount(skillInstall) {
 }
 
 // ═══════════════════════════════════════════════════════════
-// 评论功能
+// Comments
 // ═══════════════════════════════════════════════════════════
 
 /**
- * 添加评论
+ * Post a comment.
  * @param {string} skillInstall
  * @param {string} content
  * @param {string} nickname
  * @param {number} rating - 1-5
- * @returns {Promise<{id: string, success: boolean}>}
+ * @returns {Promise<{id?: string, success: boolean, error?: string}>}
  */
 async function addComment(skillInstall, content, nickname = 'Anonymous', rating = null) {
+    if (!communityEnabled) {
+        return { success: false, error: 'Community features are disabled.' };
+    }
+
     try {
         await initAuth();
 
@@ -218,19 +283,20 @@ async function addComment(skillInstall, content, nickname = 'Anonymous', rating 
         if (error) throw error;
         return data;
     } catch (error) {
-        console.error('Error adding comment:', error);
         return { success: false, error: error.message };
     }
 }
 
 /**
- * 获取技能评论
+ * Comments for a skill.
  * @param {string} skillInstall
  * @param {number} limit
  * @param {number} offset
  * @returns {Promise<Array>}
  */
 async function getComments(skillInstall, limit = 20, offset = 0) {
+    if (!communityEnabled) return [];
+
     try {
         const { data, error } = await supabaseClient
             .from('skill_comments')
@@ -243,17 +309,19 @@ async function getComments(skillInstall, limit = 20, offset = 0) {
         if (error) throw error;
         return data || [];
     } catch (error) {
-        console.error('Error fetching comments:', error);
+        console.warn('Could not load comments.');
         return [];
     }
 }
 
 /**
- * 删除自己的评论
+ * Soft-delete one of your own comments.
  * @param {string} commentId
  * @returns {Promise<boolean>}
  */
 async function deleteComment(commentId) {
+    if (!communityEnabled) return false;
+
     try {
         await initAuth();
 
@@ -265,21 +333,23 @@ async function deleteComment(commentId) {
         if (error) throw error;
         return true;
     } catch (error) {
-        console.error('Error deleting comment:', error);
+        console.warn('Could not delete comment.');
         return false;
     }
 }
 
 // ═══════════════════════════════════════════════════════════
-// 收藏功能（云同步）
+// Favorites (cloud-synced when enabled, local otherwise)
 // ═══════════════════════════════════════════════════════════
 
 /**
- * 切换收藏状态
+ * Toggle the favorite state for a skill.
  * @param {string} skillInstall
- * @returns {Promise<boolean>} - 新的收藏状态
+ * @returns {Promise<boolean>} new favorite state
  */
 async function toggleFavoriteCloud(skillInstall) {
+    if (!communityEnabled) return toggleFavoriteLocal(skillInstall);
+
     try {
         await initAuth();
         const { data, error } = await supabaseClient
@@ -288,13 +358,12 @@ async function toggleFavoriteCloud(skillInstall) {
         if (error) throw error;
         return !!data;
     } catch (error) {
-        console.error('Error toggling favorite:', error);
-        // 降级到本地存储
+        console.warn('Favorite sync failed, falling back to local storage.');
         return toggleFavoriteLocal(skillInstall);
     }
 }
 
-// 本地收藏降级
+// Local favorite fallback
 function toggleFavoriteLocal(skillInstall) {
     const favorites = JSON.parse(localStorage.getItem('skillFavorites') || '[]');
     const index = favorites.indexOf(skillInstall);
@@ -303,18 +372,21 @@ function toggleFavoriteLocal(skillInstall) {
         favorites.splice(index, 1);
         localStorage.setItem('skillFavorites', JSON.stringify(favorites));
         return false;
-    } else {
-        favorites.push(skillInstall);
-        localStorage.setItem('skillFavorites', JSON.stringify(favorites));
-        return true;
     }
+
+    favorites.push(skillInstall);
+    localStorage.setItem('skillFavorites', JSON.stringify(favorites));
+    return true;
 }
 
 /**
- * 获取所有收藏
+ * All favorites for the current user.
  * @returns {Promise<Array<string>>}
  */
 async function getFavorites() {
+    const localFavorites = JSON.parse(localStorage.getItem('skillFavorites') || '[]');
+    if (!communityEnabled) return localFavorites;
+
     try {
         await initAuth();
 
@@ -324,25 +396,24 @@ async function getFavorites() {
         if (error) throw error;
         return (data || []).map(f => f.skill_install);
     } catch (error) {
-        // 降级到本地
-        return JSON.parse(localStorage.getItem('skillFavorites') || '[]');
+        return localFavorites;
     }
 }
 
 /**
- * 同步本地收藏到云端
+ * Push locally stored favorites up to the community backend.
+ * No-op while community features are disabled.
  */
 async function syncFavoritesToCloud() {
+    if (!communityEnabled) return;
+
     const localFavorites = JSON.parse(localStorage.getItem('skillFavorites') || '[]');
     if (localFavorites.length === 0) return;
 
     try {
         await initAuth();
 
-        // 获取云端收藏
         const cloudFavorites = await getFavorites();
-
-        // 找出需要同步的
         const toSync = localFavorites.filter(f => !cloudFavorites.includes(f));
 
         if (toSync.length > 0) {
@@ -350,23 +421,34 @@ async function syncFavoritesToCloud() {
                 .rpc('sync_favorites', { p_skill_installs: toSync });
 
             if (error) throw error;
-            console.log(`Synced ${toSync.length} favorites to cloud`);
         }
     } catch (error) {
-        console.error('Error syncing favorites:', error);
+        console.warn('Could not sync favorites.');
     }
 }
 
 // ═══════════════════════════════════════════════════════════
-// 统计和排行
+// Stats and rankings
 // ═══════════════════════════════════════════════════════════
 
+function localSkillStats(skillInstall) {
+    const favorites = JSON.parse(localStorage.getItem('skillFavorites') || '[]');
+    return {
+        likes_count: 0,
+        comments_count: 0,
+        liked: isLikedLocal(skillInstall),
+        favorited: favorites.includes(skillInstall)
+    };
+}
+
 /**
- * 获取技能统计
+ * Aggregate stats for one skill.
  * @param {string} skillInstall
  * @returns {Promise<{likes_count, comments_count, liked, favorited}>}
  */
 async function getSkillStats(skillInstall) {
+    if (!communityEnabled) return localSkillStats(skillInstall);
+
     try {
         await initAuth();
 
@@ -378,21 +460,18 @@ async function getSkillStats(skillInstall) {
         if (error) throw error;
         return data;
     } catch (error) {
-        return {
-            likes_count: 0,
-            comments_count: 0,
-            liked: false,
-            favorited: false
-        };
+        return localSkillStats(skillInstall);
     }
 }
 
 /**
- * 获取热门技能排行
+ * Trending skills.
  * @param {number} limit
  * @returns {Promise<Array>}
  */
 async function getTrendingSkills(limit = 50) {
+    if (!communityEnabled) return [];
+
     try {
         const { data, error } = await supabaseClient
             .rpc('get_trending_skills', { p_limit: limit });
@@ -400,17 +479,19 @@ async function getTrendingSkills(limit = 50) {
         if (error) throw error;
         return data || [];
     } catch (error) {
-        console.error('Error fetching trending:', error);
+        console.warn('Could not load trending skills.');
         return [];
     }
 }
 
 /**
- * 批量获取多个技能的统计
+ * Stats for many skills at once.
  * @param {Array<string>} skillInstalls
  * @returns {Promise<Object>} - { skillInstall: { likes_count, ... } }
  */
 async function getBatchStats(skillInstalls) {
+    if (!communityEnabled) return {};
+
     try {
         const { data, error } = await supabaseClient
             .from('skill_stats')
@@ -430,22 +511,25 @@ async function getBatchStats(skillInstalls) {
 }
 
 // ═══════════════════════════════════════════════════════════
-// 初始化
+// Bootstrap
 // ═══════════════════════════════════════════════════════════
 
-// 页面加载时初始化认证并同步收藏
-document.addEventListener('DOMContentLoaded', async () => {
-    // 初始化匿名认证
-    await initAuth();
-    console.log('Auth initialized, user:', getUserId());
+// Only reach out to the backend when community features are actually on.
+if (communityEnabled) {
+    document.addEventListener('DOMContentLoaded', async () => {
+        await initAuth();
+        setTimeout(syncFavoritesToCloud, 2000);
+    });
+}
 
-    // 延迟同步收藏
-    setTimeout(syncFavoritesToCloud, 2000);
-});
-
-// 导出给全局使用
+// Global surface used by the UI layer.
+// `enabled` lets the renderer hide community UI instead of showing controls
+// that would silently do nothing.
 window.SkillsDB = {
-    // 认证相关
+    enabled: communityEnabled,
+    isEnabled: () => communityEnabled,
+
+    // Auth
     initAuth,
     getUser,
     getUserId,
@@ -453,25 +537,25 @@ window.SkillsDB = {
     linkGitHub,
     signOut,
 
-    // 点赞
+    // Likes
     toggleLike,
     isLiked,
     getLikesCount,
 
-    // 评论
+    // Comments
     addComment,
     getComments,
     deleteComment,
 
-    // 收藏
+    // Favorites
     toggleFavorite: toggleFavoriteCloud,
     getFavorites,
 
-    // 统计
+    // Stats
     getSkillStats,
     getTrendingSkills,
     getBatchStats,
 
-    // Supabase 客户端（高级用法）
+    // Raw client (null while community features are disabled)
     client: supabaseClient
 };

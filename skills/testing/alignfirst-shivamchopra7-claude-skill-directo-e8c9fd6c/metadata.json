@@ -1,0 +1,18 @@
+{
+  "name": "alignfirst",
+  "description": "Collaborative problem-solving protocols: write technical specifications (spec, or alspec), create implementation plans (plan, or alplan), or use Align-and-Do Protocol (AAD). Also generates PR/MR descr",
+  "category": "testing",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/testing/alignfirst/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:16:08.965713Z",
+  "dir_name": "alignfirst-shivamchopra7-claude-skill-directo-e8c9fd6c",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/testing/alignfirst/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

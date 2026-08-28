@@ -1,0 +1,18 @@
+{
+  "name": "math-router",
+  "description": "Deterministic router for math cognitive stack - maps user intent to exact CLI commands",
+  "category": "documents",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/data/math-router/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:15:59.870678Z",
+  "dir_name": "math-router-shivamchopra7-claude-skill-directo",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/data/math-router/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

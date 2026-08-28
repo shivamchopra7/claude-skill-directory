@@ -1,6 +1,29 @@
-# Skill Registry Changelog
+# Claude Skill Directory Changelog
 
-Daily update log for skill discoveries.
+Daily update log for skill discoveries, plus notable project changes.
+
+## 2026-08-28
+
+Renamed the project to **Claude Skill Directory** and moved it to a single
+repository at https://github.com/shivamchopra7/claude-skill-directory.
+
+- The project used to be split across three repositories: a pipeline repo, a
+  skills archive repo, and a merged publish artifact. That split is gone.
+  Discovery, download, deduplication, security scanning, index generation, the
+  archived `skills/**` tree, and the published site now all live here.
+- Removed the cross-repo publish handoff. There is no dispatch to a downstream
+  repo, no pinned `core_sha`/`data_sha`, and no provenance pinning. Workflows in
+  this repository build and publish directly.
+- Repointed the site and every JSON endpoint to
+  https://shivamchopra7.github.io/claude-skill-directory/. The published JSON
+  surface itself is unchanged, so existing consumers only need to swap the host
+  and path. `registry.json` still carries `"compat_since":"static-artifact-api-v1"`.
+- Rewrote the root documentation for the single-repo layout and folded the
+  contributor routing rules into CONTRIBUTING.md.
+- Security reports now go through GitHub private security advisories on this
+  repository.
+- Third-party skills under `skills/**` are unaffected. They keep their original
+  authors, licenses, and copyright notices.
 
 ## 2026-02-04
 - **Total**: 97872 skills

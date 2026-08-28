@@ -1,0 +1,18 @@
+{
+  "name": "working-with-llms",
+  "description": "Mandatory workflow for creating LLM-facing content. Follow the 4-step process (objective → draft → verify → adjust) before writing any prompt, skill, tool description, or system instruction. Triggers ",
+  "category": "devops",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/other/working-with-llms/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:15:12.965429Z",
+  "dir_name": "working-with-llms-shivamchopra7-claude-skill-directo",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/other/working-with-llms/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

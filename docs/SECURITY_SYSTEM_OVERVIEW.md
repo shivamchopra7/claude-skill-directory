@@ -66,45 +66,39 @@
 
 ```yaml
 触发事件:
-  - schedule (core `sync-data.yml`)
-  - workflow_dispatch (core `sync-data.yml` / `build-index.yml`)
-  - push to core main (core `build-index.yml`)
-  - repository_dispatch 到 main (`publish-from-core.yml`)
+  - 手动运行 `scripts/regenerate.sh`
+  - workflow_dispatch (`deploy-pages.yml`)
+  - push to main (`deploy-pages.yml`)
 ```
 
 ### 执行步骤
 
-1. **Sync Data** (`sync-data.yml`)
-   - 发现新 skills
-   - 下载/更新归档
+1. **重建产物** (`scripts/regenerate.sh`，本地运行)
    - 安全扫描（skills）
-   - 生成 `docs/security-report.json` + 写入 `docs/stats.json`
-   - 重建 registry.json
-   - 推送 data + core 变更
+   - 重建 registry.json 与 registry-shards/
+   - 基于 `skills/` 归档 + `registry.json` 生成搜索索引
+   - 写入 `docs/stats.json`
+   - 校验产物（check_artifact_api.py 等）
 
-2. **Build Index** (`build-index.yml` in core)
-   - 基于 archive + `registry.json` 生成搜索索引
-   - 发布 GitHub Pages
-
-3. **Publish Main Artifact** (`publish-from-core.yml` in main)
-   - 由 core 通过 `repository_dispatch` 触发
-   - 用固定的 `core_sha` + `data_sha` 重建 main
-   - main 仅接收合并产物，不自行做 canonical sync/index
+2. **发布 Pages** (`deploy-pages.yml`)
+   - 提交重建结果后发布 `docs/` 到 GitHub Pages
 
 ## 📁 文件结构
 
 ```
-claude-skill-registry-core/
+claude-skill-directory/
 ├── schema/
 │   └── skill.schema.json           # JSON Schema 定义
 ├── scripts/
 │   ├── security_scanner.py         # 安全扫描器
 │   ├── remediate_archive_security.py # 归档修复与隔离工具
 │   ├── skill_frontmatter.py        # 统一 frontmatter 规范化
-│   └── test_discovery.py           # 测试脚本
+│   ├── test_discovery.py           # 测试脚本
+│   └── regenerate.sh               # 重建全部生成产物
+├── skills/                         # Skill 归档
 ├── .github/workflows/
-│   ├── sync-data.yml               # 数据同步
-│   └── build-index.yml             # 索引构建
+│   ├── deploy-pages.yml            # 发布 Pages
+│   └── metadata-compliance.yml     # 元数据合规检查
 ├── docs/
 │   ├── SECURITY_GUIDE.md           # 使用指南
 │   └── SECURITY_SYSTEM_OVERVIEW.md # 系统概览
