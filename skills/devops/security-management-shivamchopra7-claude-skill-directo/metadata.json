@@ -1,0 +1,18 @@
+{
+  "name": "security-management",
+  "description": "Manage security policies and access controls for Protect surveillance. Monitor access to recordings and system settings to ensure only authorized personnel have appropriate access.",
+  "category": "devops",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/data/security-management/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:15:30.396222Z",
+  "dir_name": "security-management-shivamchopra7-claude-skill-directo",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/data/security-management/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

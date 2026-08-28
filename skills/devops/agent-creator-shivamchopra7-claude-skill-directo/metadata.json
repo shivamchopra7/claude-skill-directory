@@ -1,0 +1,18 @@
+{
+  "name": "agent-creator",
+  "description": "Create custom Task subagents. Use when creating files in ~/.claude/agents/, when user asks to \"create an agent\", \"add a subagent\", \"make a new agent\", or when defining a new subagent_type.",
+  "category": "devops",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/productivity/agent-creator/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:15:38.049975Z",
+  "dir_name": "agent-creator-shivamchopra7-claude-skill-directo",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/productivity/agent-creator/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

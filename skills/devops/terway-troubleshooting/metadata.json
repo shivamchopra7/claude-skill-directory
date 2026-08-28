@@ -1,0 +1,18 @@
+{
+  "name": "terway-troubleshooting",
+  "description": "Troubleshoot Terway CNI issues in Kubernetes using Kubernetes events and Terway logs. Use when diagnosing \"cni plugin not initialized\", Pod create/delete failures, or ENI/IPAM problems in Terway (cent",
+  "category": "devops",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/other/terway-troubleshooting/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:15:25.147090Z",
+  "dir_name": "terway-troubleshooting",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/other/terway-troubleshooting/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

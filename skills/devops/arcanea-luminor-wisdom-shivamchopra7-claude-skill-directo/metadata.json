@@ -1,0 +1,18 @@
+{
+  "name": "arcanea-luminor-wisdom",
+  "description": "Channel the Seven Luminors - archetypal guides for creative challenges including Valora (courage), Sophron (wisdom), Kardia (heart), Poiesis (creation), Enduran (endurance), Orakis (vision), and Eudai",
+  "category": "devops",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/data/luminor-wisdom/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:16:03.281033Z",
+  "dir_name": "arcanea-luminor-wisdom-shivamchopra7-claude-skill-directo",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/data/luminor-wisdom/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}

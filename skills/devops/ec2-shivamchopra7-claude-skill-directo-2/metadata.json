@@ -1,0 +1,18 @@
+{
+  "name": "ec2",
+  "description": "AWS EC2 virtual machine management for instances, AMIs, and networking. Use when launching instances, configuring security groups, managing key pairs, troubleshooting connectivity, or automating insta",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/devops/aws-ec2-deployment",
+  "category": "devops",
+  "tags": [],
+  "stars": 0,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "dir_name": "ec2-shivamchopra7-claude-skill-directo-2",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/devops/aws-ec2-deployment/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}
