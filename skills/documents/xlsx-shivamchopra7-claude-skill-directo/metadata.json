@@ -1,0 +1,18 @@
+{
+  "name": "xlsx",
+  "description": "Excel spreadsheet processing and analysis. Formats: .xlsx, .xlsm, .csv, .tsv. Capabilities: create spreadsheets, formulas (error-free), formatting, data analysis, charts, pivot tables, conditional for",
+  "category": "documents",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "path": "skills/other/xlsx/SKILL.md",
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "downloaded_at": "2026-01-24T16:15:17.014302Z",
+  "dir_name": "xlsx-shivamchopra7-claude-skill-directo",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory/blob/main/skills/other/xlsx/SKILL.md",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}
