@@ -1,0 +1,17 @@
+{
+  "name": "building-project",
+  "description": "Used to build a project",
+  "repo": "shivamchopra7/claude-skill-directory",
+  "category": "design",
+  "tags": [],
+  "stars": 48,
+  "source": "github.com/shivamchopra7/claude-skill-directory",
+  "dir_name": "building-project",
+  "author": "majiayu000",
+  "source_url": "https://github.com/shivamchopra7/claude-skill-directory",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 majiayu000",
+  "permission_note": "Use according to upstream license terms and attribution requirements.",
+  "distribution": "compatible",
+  "license_class": "compatible"
+}
