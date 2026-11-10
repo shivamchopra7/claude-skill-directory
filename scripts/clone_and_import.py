@@ -7,7 +7,7 @@ Clones awesome-claude-skills repos and imports SKILL.md files.
 import json
 import logging
 import subprocess
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 from utils import (
@@ -176,7 +176,7 @@ def import_skill(skill_file: Path, skills_dir: Path, repo_slug: str, stats: dict
         "source": f"github.com/{repo_slug}",
         "source_path": rel_path,
         "dir_name": target_dir.name,
-        "imported_at": datetime.utcnow().isoformat() + "Z",
+        "imported_at": datetime.now(timezone.utc).replace(tzinfo=None).isoformat() + "Z",
         **legal_meta,
     }
     (target_dir / "metadata.json").write_text(

@@ -11,7 +11,7 @@ import shutil
 import tempfile
 import time
 from collections import defaultdict
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
@@ -413,7 +413,7 @@ class GitHubTopicDiscovery:
                         'category': category,
                         'source': f'github.com/{repo}',
                         'dir_name': skill_dir,
-                        'downloaded_at': datetime.utcnow().isoformat() + 'Z',
+                        'downloaded_at': datetime.now(timezone.utc).replace(tzinfo=None).isoformat() + 'Z',
                         'classification': {
                             'schema_version': 1,
                             **classification,
@@ -633,7 +633,7 @@ class GitHubTopicDiscovery:
                     logger.info(f"  ✓ Downloaded: {skill['path']}")
 
         # Save discovery results
-        discovered_at = datetime.utcnow().isoformat() + 'Z'
+        discovered_at = datetime.now(timezone.utc).replace(tzinfo=None).isoformat() + 'Z'
         Path(output_json).parent.mkdir(parents=True, exist_ok=True)
         with open(output_json, 'w', encoding='utf-8') as f:
             json.dump({

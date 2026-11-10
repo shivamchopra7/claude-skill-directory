@@ -11,7 +11,7 @@ from __future__ import annotations
 import argparse
 import json
 from collections import Counter
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Tuple
 
@@ -182,7 +182,7 @@ def validate_single_metadata(
 
 
 def write_notices(path: Path, rows: List[Dict], scanned_count: int) -> None:
-    generated_at = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     distribution_counts = Counter((row.get("distribution") or "unknown") for row in rows)
 
     lines = [

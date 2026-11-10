@@ -4,7 +4,7 @@
 
 import json
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 # Add parent to path for imports
@@ -158,7 +158,7 @@ def build_unified_registry(
 
     registry = {
         "version": "2.0.0",
-        "updated_at": datetime.utcnow().isoformat() + "Z",
+        "updated_at": datetime.now(timezone.utc).replace(tzinfo=None).isoformat() + "Z",
         "total_count": len(all_skills),
         "skills": all_skills,
     }

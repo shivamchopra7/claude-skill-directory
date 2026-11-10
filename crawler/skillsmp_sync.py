@@ -6,7 +6,7 @@ Sync skills from SkillsMP.com API which has already crawled 32,000+ skills
 import json
 import logging
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Optional
 
 import requests
@@ -165,7 +165,7 @@ class SkillsMPSync:
         output = {
             'name': 'SkillsMP Synced Skills',
             'description': 'Skills synced from SkillsMP.com - aggregated from GitHub',
-            'synced_at': datetime.utcnow().isoformat() + 'Z',
+            'synced_at': datetime.now(timezone.utc).replace(tzinfo=None).isoformat() + 'Z',
             'total_count': len(self.skills),
             'skills': self.skills,
         }

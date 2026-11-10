@@ -427,7 +427,7 @@ def save_acquisition_manifest(path: Path, entries: dict[str, dict]) -> None:
     """Persist acquisition manifest to disk."""
     payload = {
         "version": ACQUISITION_MANIFEST_VERSION,
-        "updated_at": datetime.utcnow().isoformat() + "Z",
+        "updated_at": datetime.now(timezone.utc).replace(tzinfo=None).isoformat() + "Z",
         "total_count": len(entries),
         "entries": entries,
     }

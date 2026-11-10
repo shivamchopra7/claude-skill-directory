@@ -8,7 +8,7 @@ import os
 import shutil
 import sys
 import time
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import quote
 
@@ -272,7 +272,7 @@ async def download_skills(
     ) -> None:
         observations.append(
             {
-                "timestamp": datetime.utcnow().isoformat() + "Z",
+                "timestamp": datetime.now(timezone.utc).replace(tzinfo=None).isoformat() + "Z",
                 "shard_count": shard_count,
                 "shard_index": shard_index,
                 "name": (skill.get("name") or "").strip(),
@@ -620,7 +620,7 @@ async def download_skills(
                                                 if pin_commit_sha
                                                 else {}
                                             ),
-                                            "updated_at": datetime.utcnow().isoformat() + "Z",
+                                            "updated_at": datetime.now(timezone.utc).replace(tzinfo=None).isoformat() + "Z",
                                         }
                                         manifest_state["dirty"] = True
                                     stats["url_attempts"] += attempts

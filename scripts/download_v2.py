@@ -26,7 +26,7 @@ import logging
 import os
 import time
 from collections import defaultdict
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
@@ -379,7 +379,7 @@ async def download_skill(
                 "github_path": github_path,
                 "github_branch": github_branch,
                 "dir_name": dir_name,
-                "downloaded_at": datetime.utcnow().isoformat() + "Z",
+                "downloaded_at": datetime.now(timezone.utc).replace(tzinfo=None).isoformat() + "Z",
                 **legal_meta,
             }
             (skill_dir / "metadata.json").write_text(
